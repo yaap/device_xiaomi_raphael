@@ -68,7 +68,8 @@ PRODUCT_PACKAGES += \
     audio.primary.msmnile \
     audio.bluetooth.default \
     audio.usb.default \
-    audio.r_submix.default
+    audio.r_submix.default \
+    audio_amplifier.sm6150
 
 PRODUCT_PACKAGES += \
     liba2dpoffload \
