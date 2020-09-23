@@ -34,4 +34,7 @@
     <!-- Doze: pulse parameter - how long does it take to fade in after an intent? -->
     <integer name="doze_pulse_duration_in_intent">0</integer>
 
+    <!-- Should we vibrate on an icon animation of the shelf. This should only be active if the
+     vibrator is capable of subtle vibrations -->
+    <bool name="config_vibrateOnIconAnimation">true</bool>
 </resources>
