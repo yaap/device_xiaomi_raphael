@@ -49,6 +49,12 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 PRODUCT_PACKAGES += \
     fs_config_files
 
+# ANT+
+PRODUCT_PACKAGES += \
+    AntHalService-Soong \
+    com.dsi.ant.antradio_library \
+    com.dsi.ant@1.0.vendor
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
