@@ -352,7 +352,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_SOONG_NAMESPACES += \
     vendor/nxp/opensource/sn100x
 
-# NFC
 PRODUCT_PACKAGES += \
     android.hardware.nfc@1.2-service \
     NfcNci \
@@ -375,10 +374,6 @@ PRODUCT_COPY_FILES += \
 # NN
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-rtti
-
-# PixelLiveWallpaper
-PRODUCT_PACKAGES += \
-    PixelLiveWallpaperPrebuilt
 
 # Power
 PRODUCT_PACKAGES += \
