@@ -10,28 +10,28 @@ vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 vendor/lib64/libsns_registry_skel.so
 
-# ADSP-Modules
-vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
-vendor/lib/rfsa/adsp/dirac_resource.dar
-vendor/lib/rfsa/adsp/libapps_mem_heap.so
-vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
-vendor/lib/rfsa/adsp/libcamera_nn_skel.so
-vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libdspCV_skel.so
-vendor/lib/rfsa/adsp/libfastcvadsp.so
-vendor/lib/rfsa/adsp/libfastcvdsp_skel.so
-vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so
-vendor/lib/rfsa/adsp/libdsp_streamer_binning.so
-vendor/lib/rfsa/adsp/libdsp_streamer_skel.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel.so
-vendor/lib/rfsa/adsp/libproxy_skel.so
-vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
-vendor/lib/rfsa/adsp/libSuperSensor_skel.so
-vendor/lib/rfsa/adsp/libVC1Dec.so
-vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so
-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin
-vendor/lib/rfsa/adsp/misound_res.bin
+# ADSP-Modules - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so|136ee309e7c9892d55b3e87e45cd0ab39120658e
+vendor/lib/rfsa/adsp/dirac_resource.dar|8697ff9e77a872b849cd2ce95afa45dac97cb01e
+vendor/lib/rfsa/adsp/libapps_mem_heap.so|1cdac354c585c0d236d77b0888ebd5894b333326
+vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so|f624829796c1190b0156873d2620a62ea946e383
+vendor/lib/rfsa/adsp/libcamera_nn_skel.so|e4a35174a93264b38fe210a3f99e5fb7be8dc39e
+vendor/lib/rfsa/adsp/libdirac-capiv2.so|a4d102a732937584771d4bbe9baf447b67d81e1a
+vendor/lib/rfsa/adsp/libdspCV_skel.so|63fc368b17e1b112c8824cd245c3a4dec17d13e4
+vendor/lib/rfsa/adsp/libfastcvadsp.so|cb6849db333972f3891973d052106dfc95f88c90
+vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|096236d79d282a872a3226fea3a0dafd67184767
+vendor/lib/rfsa/adsp/libdsp_streamer_add_constant.so|481cdec174e77e5cb555d715057170568892a18f
+vendor/lib/rfsa/adsp/libdsp_streamer_binning.so|00eb6acc7c864371b932f95ff98e98351c6508d8
+vendor/lib/rfsa/adsp/libdsp_streamer_skel.so|aee67209556f075cabdb55ddc70d7a76ffc74b3b
+vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|55d2c71535acdcbbdd7b0a3fe475249c8d99eb08
+vendor/lib/rfsa/adsp/libproxy_skel.so|a60d7c8b9d3e6784ba68ed9053b8f569984810ba
+vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
+vendor/lib/rfsa/adsp/libSuperSensor_skel.so|c50c640a816a93e8be800e412a02c173c2b61668
+vendor/lib/rfsa/adsp/libVC1Dec.so|732ede3ede9e6e1b09c439156f62a07d8fa0ee3e
+vendor/lib/rfsa/adsp/libVC1DecDsp_skel.so|eff059c5a29a44d205bd60ad24aecc46416e939e
+vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|1b6114eeefa29e36f10571ae5dde4ba84625982c
+vendor/lib/rfsa/adsp/misound_karaoke_res.bin|47291d1ed9b942e3cdb24602e9eded01bf4580fb
+vendor/lib/rfsa/adsp/misound_res.bin|d08fb852de9a354f60c18cd5186d2e1cdbbd2ad4
 
 # Alarm
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -44,51 +44,51 @@ vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 vendor/lib64/hw/com.dsi.ant@1.0-impl.so
 vendor/lib64/com.dsi.ant@1.0.so
 
-# Audio
-vendor/lib/libacdb-fts.so
-vendor/lib/libacdbloader.so
-vendor/lib/libacdbrtac.so
-vendor/lib/libadiertac.so
-vendor/lib/libadm.so
-vendor/lib/libaudcal.so
-vendor/lib/libaudioconfigstore.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libtinycompress.so
-vendor/lib/libdrc.so
-vendor/lib/libqtigef.so
-vendor/lib/libsurround_3mic_proc.so
-vendor/lib/soundfx/libasphere.so
-vendor/lib/soundfx/libmisoundfx.so
-vendor/lib/soundfx/libshoebox.so
-vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
-vendor/lib/libcomprcapture.so
-vendor/lib/libexthwplugin.so
-vendor/lib/libhdmiedid.so
-vendor/lib/libhdmipassthru.so
-vendor/lib/libhfp.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib/libsndmonitor.so
-vendor/lib/libspkrprot.so
+# Audio - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/lib/libacdb-fts.so|9d9775662198028ecb0790de8d66f5872bdc6c22
+vendor/lib/libacdbloader.so|910c3cdb614285af2ecd036425376e46ba5ef097
+vendor/lib/libacdbrtac.so|ad042bc265f1602fce9af9a689e1358148539516
+vendor/lib/libadiertac.so|4b1228737d97450c34788404cc30f3752b1afa54
+vendor/lib/libadm.so|c5d8693dbec640d3366ad7620833b2e4387f3c01
+vendor/lib/libaudcal.so|afe50c7f6bba5f875904d27e40d0325ac28462c9
+vendor/lib/libaudioconfigstore.so|a00b695d8ec2666bdce729e0f947149c3b78b2b5
+vendor/lib/libaudioroute_ext.so|401c86a70a064355e6df3cc6224f7d8168562f96
+vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
+vendor/lib/libtinycompress.so|48485b61c09beaf128f1574f40fb8c9975426c8a
+vendor/lib/libdrc.so|e27974e53efe0456cba96f6910ad977c6351d0b7
+vendor/lib/libqtigef.so|5aa066c6ccd42777969bab3e9539236c5a140dab
+vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
+vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
+vendor/lib/soundfx/libmisoundfx.so|375e43ba3b0e2e17449eec205528e8bf22946cd5
+vendor/lib/soundfx/libshoebox.so|8c25f9bd479540f1b43c6827020376a40a667270
+vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so|78c3d718fa0d7b15bb7a61adeb737e39e2b793e0
+vendor/lib/libcomprcapture.so|e5c5c0093d791821a58881cfa4cb8a0ddaf9de09
+vendor/lib/libexthwplugin.so|d6752e3c9e542e0fe371d08884768a71f7396c07
+vendor/lib/libhdmiedid.so|b930c3540f3a52a775688ab9d05c431165c5c0cf
+vendor/lib/libhdmipassthru.so|8c1bbfe9408ef39b63ab6a20600813d9901fb860
+vendor/lib/libhfp.so|b180df6f79e772c046ea328c0d08e75e86ef213c
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|188bfa1f6971a76651e585805698390638e35b4b
+vendor/lib/libsndmonitor.so|889d424582a0cf508487c921a01198967c04829a
+vendor/lib/libspkrprot.so|3f485af891d8dca5779b74093b08cc79e8757c34
 
-# Audio-ACDB
-vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_General_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb
-vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp
+# Audio-ACDB - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/etc/acdbdata/adsp_avs_config.acdb|31429a20327b5cb5d3f0dd0b5f04a0f639e8f94b
+vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb|86c307fcb4e081de04147f911ae3fce90aa2ddaa
+vendor/etc/acdbdata/Forte/Forte_Codec_cal.acdb|6d4b19b89e71c76a6e61a810806017482500a102
+vendor/etc/acdbdata/Forte/Forte_General_cal.acdb|6c91823fa9982bd845edba4a91a959095e3ffbb5
+vendor/etc/acdbdata/Forte/Forte_Global_cal.acdb|0a2dcd9c27894f7d326bb8f427cc60017553b818
+vendor/etc/acdbdata/Forte/Forte_Handset_cal.acdb|346d91356c42387ec98c873311f7008c26303fbb
+vendor/etc/acdbdata/Forte/Forte_Hdmi_cal.acdb|264226c802ea94a2e15e48065ed3361a6035f61c
+vendor/etc/acdbdata/Forte/Forte_Headset_cal.acdb|b67b8494f1d3c9934c6d8d36e941d8a100462f97
+vendor/etc/acdbdata/Forte/Forte_Speaker_cal.acdb|38cc8fe2c9f83434a74440d97b318f16f224429f
+vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|6fde0855ea154e64c93233920f91c76e17af7a54
 
-# Audio-Hardware
-vendor/lib/hw/audio.primary.msmnile.so
+# Audio-Hardware - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/lib/hw/audio.primary.msmnile.so|a2d9d7f72fda90f47202fd47f8eb7ab5132d31d4
 
-# Audio amplifier firmware
-vendor/firmware/tfa98xx.cnt
-vendor/firmware/mono.cnt
+# Audio amplifier firmware - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/firmware/tfa98xx.cnt|90ff4ddd45cd4eb82dc53ecff0e7309db9b062a7
+vendor/firmware/mono.cnt|0b5ab0f7cdd157cfa5f595e27faf9adc7678548d
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
@@ -212,232 +212,230 @@ vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so
 vendor/lib64/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.capabilityconfigstore@1.0.so
 
-# Camera
-vendor/bin/remosaic_daemon
-vendor/bin/hw/android.hardware.camera.provider@2.4-service_64
-vendor/lib64/libalAILDC.so
-vendor/lib/libcapiv2svacnn.so
-vendor/lib/libcapiv2vop.so
-vendor/lib64/libalLDC.so
-vendor/lib64/libalRnBRT_GL_GBWRAPPER.so
-vendor/lib64/libalhLDC.so
-vendor/lib64/libalCFR.so
-vendor/lib64/libarcsat.so
-vendor/lib64/libft2vendor.so
-vendor/lib64/camera/com.qti.sensor.imx586_raphael.so
-vendor/lib64/camera/com.qti.sensor.ov8856_raphael.so
-vendor/lib64/camera/com.qti.sensor.s5k3l6_raphael.so
-vendor/lib64/camera/com.qti.sensor.s5k3t2_raphael.so
-vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_imx586.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_ov8856.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_s5k3l6.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_imx586.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_ov8856.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_s5k3l6.bin
-vendor/lib64/camera/com.qti.sensormodule.raphael_sunny_s5k3t2.bin
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_imx586.bin
-vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_ov8856.bin
-vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_s5k3l6.bin
-vendor/lib64/camera/com.qti.tuned.raphael_ofilm_imx586.bin
-vendor/lib64/camera/com.qti.tuned.raphael_ofilm_ov8856.bin
-vendor/lib64/camera/com.qti.tuned.raphael_ofilm_s5k3l6.bin
-vendor/lib64/camera/com.qti.tuned.raphael_sunny_s5k3t2.bin
-vendor/lib64/camera/components/com.almalence.node.sr.so
-vendor/lib64/camera/components/com.altek.node.depurple.so
-vendor/lib64/camera/components/com.altek.node.distortioncorrection.so
-vendor/lib64/camera/components/com.arcsoft.node.bodyslim.so
-vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so
-vendor/lib64/camera/components/com.arcsoft.node.capturefusion.so
-vendor/lib64/camera/components/com.arcsoft.node.deflicker.so
-vendor/lib64/camera/components/com.arcsoft.node.distortioncorrection.so
-vendor/lib64/camera/components/com.arcsoft.node.hdr.so
-vendor/lib64/camera/components/com.arcsoft.node.hdrchecker.so
-vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so
-vendor/lib64/camera/components/com.arcsoft.node.skinbeautifier.so
-vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so
-vendor/lib64/camera/components/com.arcsoft.node.superlowlight.so
-vendor/lib64/camera/components/com.mi.node.aiasd.so
-vendor/lib64/camera/components/com.qti.camx.chiiqutils.so
-vendor/lib64/camera/components/com.qti.eisv2.so
-vendor/lib64/camera/components/com.qti.eisv3.so
-vendor/lib64/camera/components/com.qti.hvx.addconstant.so
-vendor/lib64/camera/components/com.qti.hvx.binning.so
-vendor/lib64/camera/components/com.qti.node.depth.so
-vendor/lib64/camera/components/com.qti.node.dummyrtb.so
-vendor/lib64/camera/components/com.qti.node.dummysat.so
-vendor/lib64/camera/components/com.qti.node.eisv2.so
-vendor/lib64/camera/components/com.qti.node.eisv3.so
-vendor/lib64/camera/components/com.qti.node.fcv.so
-vendor/lib64/camera/components/com.qti.node.gpu.so
-vendor/lib64/camera/components/com.qti.node.memcpy.so
-vendor/lib64/camera/components/com.qti.node.photosolid.so
-vendor/lib64/camera/components/com.qti.node.remosaic.so
-vendor/lib64/camera/components/com.qti.node.stich.so
-vendor/lib64/camera/components/com.qti.node.swregistration.so
-vendor/lib64/camera/components/com.qti.node.watermark.so
-vendor/lib64/camera/components/com.qti.node.xiaomigenderage.so
-vendor/lib64/camera/components/com.qti.stats.aec.so
-vendor/lib64/camera/components/com.qti.stats.af.so
-vendor/lib64/camera/components/com.qti.stats.afd.so
-vendor/lib64/camera/components/com.qti.stats.asd.so
-vendor/lib64/camera/components/com.qti.stats.awb.so
-vendor/lib64/camera/components/com.qti.stats.awbwrapper.so
-vendor/lib64/camera/components/com.qti.stats.haf.so
-vendor/lib64/camera/components/com.qti.stats.hafoverride.so
-vendor/lib64/camera/components/com.qti.stats.localhistogram.so
-vendor/lib64/camera/components/com.qti.stats.pdlib.so
-vendor/lib64/camera/components/com.qti.stats.pdlibsony.so
-vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so
-vendor/lib64/camera/components/com.qtistatic.stats.aec.so
-vendor/lib64/camera/components/com.qtistatic.stats.af.so
-vendor/lib64/camera/components/com.qtistatic.stats.awb.so
-vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so
-vendor/lib64/camera/components/com.vidhance.node.eis.so
-vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so
-vendor/lib64/camera/components/com.visidon.node.clearshot.so
-vendor/lib64/camera/components/com.xiaomi.node.mibokeh.so
-vendor/lib64/camera/components/com.xiaomi.node.mifragment.so
-vendor/lib64/camera/components/com.xiaomi.node.misegment.so
-vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml
-vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml
-vendor/lib64/camera/components/etc/visidon_clearshot_params.xml
-vendor/lib64/camera/components/libdepthmapwrapper.so
-vendor/lib64/camera/fdconfigpreview.bin
-vendor/lib64/camera/fdconfigpreviewlite.bin
-vendor/lib64/camera/fdconfigvideo.bin
-vendor/lib64/camera/fdconfigvideolite.bin
-vendor/lib64/hw/camera.qcom.so
-vendor/lib64/hw/com.qti.chi.override.so
-vendor/lib64/libc++_shared.so
-vendor/lib64/libcamera_nn_stub.so
-vendor/lib64/libcamera_scene.so
-vendor/lib64/libcamxfdalgov7.so
-vendor/lib64/libcamxfdalgov8.so
-vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxlocalhistogramalgo.so
-vendor/lib64/libcamxstatscore.so
-vendor/lib64/libcamxswprocessalgo.so
-vendor/lib64/libcamxtintlessalgo.so
-vendor/lib64/libcom.qti.chinodeutils.so
-vendor/lib64/libFaceGrade.so
-vendor/lib64/libHalSuperSensorServer.so
-vendor/lib64/libmialgoengine.so
-vendor/lib64/libmialgo_fs.so
-vendor/lib64/libmialgo_rfs.so
-vendor/lib64/libmialgo_sd.so
-vendor/lib64/libmialgo_utils.so
-vendor/lib64/libmibokeh_855.so
-vendor/lib64/libmpbase.so
-vendor/lib64/libremosaiclib.so
-vendor/lib64/libremosaic_daemon.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libSuperSensor.so
-vendor/lib64/libSuperSensorCPU.so
-vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libtriplecam_optical_zoom_control.so
-vendor/lib64/libtriplecam_video_optical_zoom.so
-vendor/lib64/libVDClearShot.so
-vendor/lib64/libvidhance.so
-vendor/lib64/libXMFD_AgeGender.so
-vendor/lib64/lib_denoiser3.so
-vendor/lib64/mibokeh_855_opencl.bin
-vendor/lib64/vendor.qti.hardware.camera.device@1.0.so
+# Camera - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/remosaic_daemon|1f092ffcd4b471ef2a540e7a1882eb5d87cd984b
+vendor/bin/hw/android.hardware.camera.provider@2.4-service_64|d75fbf981881b05a9c35dec0937dd949d69a2eae
+vendor/lib64/libalAILDC.so|cd3436990cf35dfa6592074a413b3b9fd0660ca6
+vendor/lib/libcapiv2svacnn.so|10271e9d5a32377740292bcf27f35098ee65fb5b
+vendor/lib/libcapiv2vop.so|ffde544a5b8b4db988e92308568a84caad80518e
+vendor/lib64/libalLDC.so|94ecf7486ce9ca4c6c26adcadcc12d64b02ead4c
+vendor/lib64/libalRnBRT_GL_GBWRAPPER.so|49526861862bbdb9046d6e98bf97b008ad7ba175
+vendor/lib64/libalhLDC.so|2475eac72173f10f963ce83ea1a32dc4b059fa82
+vendor/lib64/libalCFR.so|4e51bd81191d2aa45a1fe229eded8ae2792a6649
+vendor/lib64/libarcsat.so|78e3f651edff6907453515670e513b1dbbcf7f52
+vendor/lib64/libft2vendor.so|fd87e8dbbb193d263d60bd352813b686633cba65
+vendor/lib64/camera/com.qti.sensor.imx586_raphael.so|597aea46e2707093559c9c3913bc5b4c35dcf9e4
+vendor/lib64/camera/com.qti.sensor.ov8856_raphael.so|eb55659d5dee6b20e9613deb5902e943022ee354
+vendor/lib64/camera/com.qti.sensor.s5k3l6_raphael.so|851acc9e33b7220179d4073c75c0af198e1a8b7c
+vendor/lib64/camera/com.qti.sensor.s5k3t2_raphael.so|37c2279cc6cf4529c20cf0e994c098d4ad1d52f8
+vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_imx586.bin|048e842c87832b92455b6dd864464b7545bee5e6
+vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_ov8856.bin|16442534ae9ee86d3e30a3260798059b9cb55845
+vendor/lib64/camera/com.qti.sensormodule.raphael_luxvisions_s5k3l6.bin|e37caa7c1a2e1580d4614591284ec3c1d5367393
+vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_imx586.bin|a3a4eb0453ad77f3e0995623504329185e9c71bf
+vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_ov8856.bin|c229c21555bd190693744fd60b3900081243042d
+vendor/lib64/camera/com.qti.sensormodule.raphael_ofilm_s5k3l6.bin|d1a03e924377ff3395e903be203bb321cfa15b61
+vendor/lib64/camera/com.qti.sensormodule.raphael_sunny_s5k3t2.bin|73463ab4313832e21fa393a0651677a465d44e91
+vendor/lib64/camera/com.qti.tuned.default.bin|26a58819d225c62b8ef38a8e1ecffd54c491bb7b
+vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_imx586.bin|ebec0c24db378c9af37944ea02a7431e26361b74
+vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_ov8856.bin|7b68e8c458e4ddc320c5fff859ddbc095d382e47
+vendor/lib64/camera/com.qti.tuned.raphael_luxvisions_s5k3l6.bin|aaf03e0f881f89b55cec165d71046b705c90f83c
+vendor/lib64/camera/com.qti.tuned.raphael_ofilm_imx586.bin|3c1b4549824d6c5e4b743b198ad002e3cb4d53f8
+vendor/lib64/camera/com.qti.tuned.raphael_ofilm_ov8856.bin|7b68e8c458e4ddc320c5fff859ddbc095d382e47
+vendor/lib64/camera/com.qti.tuned.raphael_ofilm_s5k3l6.bin|aaf03e0f881f89b55cec165d71046b705c90f83c
+vendor/lib64/camera/com.qti.tuned.raphael_sunny_s5k3t2.bin|17bc2e3699d8992f4d0bda6cff25bd48a7fdfc01
+vendor/lib64/camera/components/com.almalence.node.sr.so|80a3e8b1ef815ad88eecdf146f3cec0a4e87580b
+vendor/lib64/camera/components/com.altek.node.depurple.so|320def19f184cd41f3992380fd5ef6d0888aea43
+vendor/lib64/camera/components/com.altek.node.distortioncorrection.so|c9efe558cb90238051b27cf1eac99378fceb46e2
+vendor/lib64/camera/components/com.arcsoft.node.bodyslim.so|cc07c4df47c885072e5b103bd7eb9efc21381db2
+vendor/lib64/camera/components/com.arcsoft.node.capturebokeh.so|79184034e42cecc93cf87c310527accd4fea5642
+vendor/lib64/camera/components/com.arcsoft.node.capturefusion.so|c6fff32ccfbce8f70ea07b225e6bedcab02f68b1
+vendor/lib64/camera/components/com.arcsoft.node.deflicker.so|62556de16ee6bdbe286286ce22aad9f13cb05baa
+vendor/lib64/camera/components/com.arcsoft.node.distortioncorrection.so|13a2b4ddc1249fdf5a569ec432f98137a93e5dbb
+vendor/lib64/camera/components/com.arcsoft.node.hdr.so|aca7c865ac3925f226a292302a28d0979dc121cc
+vendor/lib64/camera/components/com.arcsoft.node.hdrchecker.so|7f99ce8e89ea7f05cbf46214e476f1f7814cf3d9
+vendor/lib64/camera/components/com.arcsoft.node.realtimebokeh.so|3ce76718f34b4391900a99d14522d5eefc142e87
+vendor/lib64/camera/components/com.arcsoft.node.skinbeautifier.so|3205503a2a241f68b51fbb7ccb8e069d7795c107
+vendor/lib64/camera/components/com.arcsoft.node.smooth_transition.so|01c56749241f6f8ff3cce27d336abcd023c1bd3b
+vendor/lib64/camera/components/com.arcsoft.node.superlowlight.so|132be3812013baf6ffb43fe31a013f9da4c1ce54
+vendor/lib64/camera/components/com.mi.node.aiasd.so|7d2f985313ef03f552bfbe05d7a8eda72f32c0e9
+vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|7312ee17636cf8e8c80e3199e6c7359fa010910d
+vendor/lib64/camera/components/com.qti.eisv2.so|e91b4a492ab8c2428552af3dd7de3a5cbce8d910
+vendor/lib64/camera/components/com.qti.eisv3.so|0aafc98db1e0804003db6dc1a6754e27d7acd2bd
+vendor/lib64/camera/components/com.qti.hvx.addconstant.so|8640b05d85e8655adb1ae41cab370df61be4d546
+vendor/lib64/camera/components/com.qti.hvx.binning.so|e938880c82639bb867087e04b5991367d56842ba
+vendor/lib64/camera/components/com.qti.node.depth.so|7d6ba26c581aba5bac30f6c589266737db123cb6
+vendor/lib64/camera/components/com.qti.node.dummyrtb.so|8bd72f54b5e2d6371d88936927368d7ad1cf029d
+vendor/lib64/camera/components/com.qti.node.dummysat.so|c788c57512f1992e74680ce6c7a9c2c75f799a76
+vendor/lib64/camera/components/com.qti.node.eisv2.so|ca36329554fa4531ced51fa94321c0cb3b924d8a
+vendor/lib64/camera/components/com.qti.node.eisv3.so|4d6f816e28ab296f66797c4df6cca80011d1fc98
+vendor/lib64/camera/components/com.qti.node.fcv.so|b66d11a324f6f5ae1319d8c3eae0039905186bcf
+vendor/lib64/camera/components/com.qti.node.gpu.so|4f2b308d789810d0f0b67cd84211d27a78cba5d1
+vendor/lib64/camera/components/com.qti.node.memcpy.so|c9d408f98c2569cea84e7c39d5ce47c87dc4249b
+vendor/lib64/camera/components/com.qti.node.photosolid.so|f8010d14a5b8054ac49774ad93362c36d685815d
+vendor/lib64/camera/components/com.qti.node.remosaic.so|f7c5450bff2c23ad0bbc5fedbfce5ec83444ade6
+vendor/lib64/camera/components/com.qti.node.stich.so|14001bf2663a51ec47360611107f98eaf8576e11
+vendor/lib64/camera/components/com.qti.node.swregistration.so|23e00925fa73acf14559ee29494a62170edd68f5
+vendor/lib64/camera/components/com.qti.node.watermark.so|2705f57fd499e44c2345daae7ab0cabcbff6ebc1
+vendor/lib64/camera/components/com.qti.node.xiaomigenderage.so|3e117fdf02160c75669b3512f696013eca7ba812
+vendor/lib64/camera/components/com.qti.stats.aec.so|7689f09ed05344bd40ccb4277cae7265d6fb2c22
+vendor/lib64/camera/components/com.qti.stats.af.so|66d4a0dfe29204d9b85e8fa62fe20bfa31a25b7a
+vendor/lib64/camera/components/com.qti.stats.afd.so|401daf0414fc87b58fbc9f54101d2cceb54ee5a7
+vendor/lib64/camera/components/com.qti.stats.asd.so|87d1642efc3236d4d4e222e0a3c676d3137a06c5
+vendor/lib64/camera/components/com.qti.stats.awb.so|63c23ec130e02da6585e675914e94e783885c3ee
+vendor/lib64/camera/components/com.qti.stats.awbwrapper.so|62c9e7c1527acbbe2ade6e1be99b9092cbe9dc0c
+vendor/lib64/camera/components/com.qti.stats.haf.so|f39e33bf316d3d81365ffa2296236ef82ce0e1af
+vendor/lib64/camera/components/com.qti.stats.hafoverride.so|95a7d7cae79fa0a77458a0378879ced9e61a601a
+vendor/lib64/camera/components/com.qti.stats.localhistogram.so|7e96983c91ccdaafa0a62c88f9de3908739deef1
+vendor/lib64/camera/components/com.qti.stats.pdlib.so|05441da3e3af0cb5194246d51998c3adafcce76f
+vendor/lib64/camera/components/com.qti.stats.pdlibsony.so|cb387bf3323c36d3030ab1debbc60fd12e41150f
+vendor/lib64/camera/components/com.qti.stats.pdlibwrapper.so|e4b58d5bde02b0e0f4b197fa464af5bdb4ab0bbd
+vendor/lib64/camera/components/com.qtistatic.stats.aec.so|d3f7d6916bc43cce3c611f45439954fc77ecd93d
+vendor/lib64/camera/components/com.qtistatic.stats.af.so|ea12d7542441493b3e53395e4693aecf1882e5fb
+vendor/lib64/camera/components/com.qtistatic.stats.awb.so|1f9a8341577e0c7b60a75f8d47db341ca290b7fd
+vendor/lib64/camera/components/com.qtistatic.stats.pdlib.so|c62cf83a236eec200966f5b5700b5eb061a23bad
+vendor/lib64/camera/components/com.vidhance.node.eis.so|1b0f5a931e7def8e7fac4eeabb47a8ca1cc94f6f
+vendor/lib64/camera/components/com.vidhance.stats.aec_dmbr.so|8a635c8a480480b29a53380c435d6e1f9797b0f9
+vendor/lib64/camera/components/com.visidon.node.clearshot.so|0cec5296f9ce23d1c121b4747422d03aaf77c7c2
+vendor/lib64/camera/components/com.xiaomi.node.mibokeh.so|2f477b2edf87e3e511bbf66b83fa37cbb82cf62d
+vendor/lib64/camera/components/com.xiaomi.node.mifragment.so|5d56a716c5d836228ec7e034f5747adbcd208d3a
+vendor/lib64/camera/components/com.xiaomi.node.misegment.so|3b24cfa4ce1dae0d864407908ee0dc0c578194ce
+vendor/lib64/camera/components/etc/morpho_lowlight4.0.xml|39aa21900ab8aa4fb8f42ccd48873f5d174703c3
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_3hdr.xml|00194b640a010429562406f0d0a047b4ed9d74fa
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high.xml|dfc5e6919768a527868733ec118ca81515419f0d
+vendor/lib64/camera/components/etc/morpho_lowlight4.0_adrc_high_1.xml|5cf337fd13d6c53c56e7571f1701e7023afcd228
+vendor/lib64/camera/components/etc/visidon_clearshot_params.xml|8041eed40eea41ad98576616a3edaf7da6ae097e
+vendor/lib64/camera/components/libdepthmapwrapper.so|ab3351333e60b05ff26ea3aff67db25bdc08927d
+vendor/lib64/camera/fdconfigpreview.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
+vendor/lib64/camera/fdconfigpreviewlite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
+vendor/lib64/camera/fdconfigvideo.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
+vendor/lib64/camera/fdconfigvideolite.bin|f3dfb2db6955221919245f382dd6132d9b28c7ad
+vendor/lib64/hw/camera.qcom.so|b0883380cb834f75e44055d48b4ede9edd49126d
+vendor/lib64/hw/com.qti.chi.override.so|1c7ceab3f40cbd3a415671609166d6c024aef34c
+vendor/lib64/libc++_shared.so|8bd494c3b1da5d250e0dc81231ea094fd0bccf88
+vendor/lib64/libcamera_nn_stub.so|976251a2a32e75d0c2e397dcce7e5f7e18e4372e
+vendor/lib64/libcamera_scene.so|3bbfd4c6193edf1c9780efa0885e002867075104
+vendor/lib64/libcamxfdalgov7.so|aa3cf08b7c8fa862417d332c2b8012218188b962
+vendor/lib64/libcamxfdalgov8.so|c5b7401df0879170b30f81df70f51c943f983213
+vendor/lib64/libcamxfdengine.so|2d16bb62c932f9ee97957827e97cf095330c4f1d
+vendor/lib64/libcamxlocalhistogramalgo.so|962651395daf8acf9aa1ae66ce35061e372ffc3f
+vendor/lib64/libcamxstatscore.so|7cc680ed0e9ded7747b7d0a10bcb2e940f6126aa
+vendor/lib64/libcamxswprocessalgo.so|f6031f6b1b96c0b445822a45f7619824910519d0
+vendor/lib64/libcamxtintlessalgo.so|77d0ce8392160aca80345d3978b382798591207c
+vendor/lib64/libcom.qti.chinodeutils.so|7456112ff7b450a50b5f88cd7073c5c66edb1e63
+vendor/lib64/libFaceGrade.so|b3f316c56ab78ec550e8248c8d3ae7ca720d009e
+vendor/lib64/libHalSuperSensorServer.so|59e7bd40acf52610a62c5ade0cb3083e2a09f6ff
+vendor/lib64/libmialgoengine.so|67d03d3f8c17f0e4eced4695717d8fb56751cdb0
+vendor/lib64/libmialgo_fs.so|d6ca2dcb85e9a7cd9c5ca6b5d11d86c415c4625f
+vendor/lib64/libmialgo_rfs.so|9c2231604ba40d1567bf4c4b81a1ad71b7732f30
+vendor/lib64/libmialgo_sd.so|0a2ab306828eec76d618bf42f28007942af0d348
+vendor/lib64/libmialgo_utils.so|8d620afa42801d5fefe3deec944eca21c0c10363
+vendor/lib64/libmibokeh_855.so|baa71114c1e48d8c729fb16fcb68b0e61f6003fc
+vendor/lib64/libmpbase.so|8b4133e220f01f5e4e411ce9fc779c00bbd31d54
+vendor/lib64/libremosaiclib.so|7168f267b9ec3d15c6316fa0738e9de005107ba5
+vendor/lib64/libremosaic_daemon.so|8f9a95b04fbdbab0dfe8cc0fc874c1b54a3553c1
+vendor/lib64/libsnsapi.so|ec368c3a8b5e094887bb23d03b5e48c0b593e237
+vendor/lib64/libsnsdiaglog.so|e43cdf03612aebdc98cc386f8df96dc92d8eeae2
+vendor/lib64/libsns_fastRPC_util.so|4b65d8aa6f0cf869a2621c423728e7328660b725
+vendor/lib64/libsns_low_lat_stream_stub.so|1f3c203e41524f005ea8474f2044d0a95be50753
+vendor/lib64/libSuperSensor.so|6a15f811312d744b85f7c63fd3b27a612e4f5e56
+vendor/lib64/libSuperSensorCPU.so|771821ca5c7e2b8f798e3c1f15ba45ea7bafacfc
+vendor/lib64/libswregistrationalgo.so|d47dc0456142d3a0d6d8d4739ac1881ec7887364
+vendor/lib64/libtriplecam_optical_zoom_control.so|4ed124cf96e346cc11d232bdfec06988cf84e8e3
+vendor/lib64/libtriplecam_video_optical_zoom.so|d06d62a3f9ad5c9330b52d55247f8d68369a6f43
+vendor/lib64/libVDClearShot.so|d171672e54e8efab69016e6f3ee8469518ddcb01
+vendor/lib64/libvidhance.so|822252821acd4fc308d080e4d524ef37defd7ba1
+vendor/lib64/libXMFD_AgeGender.so|1fcc9780c5873fa60f92070dbd7cecbf88e2bd6a
+vendor/lib64/lib_denoiser3.so|6b3a394b464d0bc4b0e73558f2e16359bb0260ff
+vendor/lib64/vendor.qti.hardware.camera.device@1.0.so|543310393fa5170c481cd94f55ac65c6558d9202
 
-# Camera-arcsoft
-vendor/lib64/libarcsoft_beautyshot.so
-vendor/lib64/libarcsoft_bodyslim.so
-vendor/lib64/libarcsoft_distortion_correction.so
-vendor/lib64/libarcsoft_dualcam_image_optical_zoom.so
-vendor/lib64/libarcsoft_dualcam_optical_zoom_control.so
-vendor/lib64/libarcsoft_dualcam_refocus.so
-vendor/lib64/libarcsoft_dualcam_refocus_front.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so
-vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so
-vendor/lib64/libarcsoft_high_dynamic_range.so
-vendor/lib64/libarcsoft_low_light_hdr.so
-vendor/lib64/libarcsoft_portrait_lighting.so
-vendor/lib64/libarcsoft_portrait_lighting_c.so
-vendor/lib64/libarcsoft_preview_deflicker.so
-vendor/lib64/libarcsoft_supernight.so
+# Camera-arcsoft - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/lib64/libarcsoft_beautyshot.so|1faae34b96337876f94503a1048f4ce408219dec
+vendor/lib64/libarcsoft_bodyslim.so|b4b3b5e55ce6833a3c020c1d6fbe9d0adad78aea
+vendor/lib64/libarcsoft_distortion_correction.so|86a6cf76276688aa5b658fd4c9721db84376e355
+vendor/lib64/libarcsoft_dualcam_image_optical_zoom.so|e8611505506c3190f0981fd2ffed406b323ec755
+vendor/lib64/libarcsoft_dualcam_optical_zoom_control.so|58e8deac3c7dca09f6bc06eeca95091daa425049
+vendor/lib64/libarcsoft_dualcam_refocus.so|80734b3605f76ddc5eb8ff73668cc75876e27c9c
+vendor/lib64/libarcsoft_dualcam_refocus_front.so|3d316f5c50675d8c39125b2c08a77db7c2aafde4
+vendor/lib64/libarcsoft_dualcam_refocus_rear_t.so|6d3171b53a65ae638f49903365ec0684924b2e2c
+vendor/lib64/libarcsoft_dualcam_refocus_rear_w.so|abc8c47eb1636d4f4b18f6a3be1324905a96028d
+vendor/lib64/libarcsoft_high_dynamic_range.so|e1475ba00fc0f4ef79918efa6847bfd188398942
+vendor/lib64/libarcsoft_low_light_hdr.so|750e1157377397fa1d94fcfb6ac1dfdf4f5fed3d
+vendor/lib64/libarcsoft_portrait_lighting.so|1bc7b14fe69e617529e4dda74e4ef1081ea2ada0
+vendor/lib64/libarcsoft_portrait_lighting_c.so|ca42fa6fc25e231ca70e1caf80a08b18ccfd3d99
+vendor/lib64/libarcsoft_preview_deflicker.so|6f1da5473c0b79e99da1d2ea27db736f06931774
+vendor/lib64/libarcsoft_supernight.so|1ddb832870a9db8bb99a0b2d9eb968565f2ee83f
 
-# Camera-configs
-vendor/etc/camera/almalence_sr_params_tele.config
-vendor/etc/camera/almalence_sr_params_wide.config
-vendor/etc/camera/beauty_ui9_intelligent_params.config
-vendor/etc/camera/body_slim_ui9_params.config
-vendor/etc/camera/camxoverridesettings.txt
-vendor/etc/camera/CFR_para_T.bin
-vendor/etc/camera/CFR_para_UW.bin
-vendor/etc/camera/CFR_para_W.bin
-vendor/etc/camera/eisoverridesettings.txt
-vendor/etc/camera/eyelineblush.cng
-vendor/etc/camera/LDC_FPC_TUNING_DATA.bin
-vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin
-vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin
-vendor/etc/camera/LDC_table_src1.dat
-vendor/etc/camera/lf_facerank_model.bin
-vendor/etc/camera/sceneDetection.xml
-vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin
+# Camera-configs - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/etc/camera/almalence_sr_params_tele.config|de4a59bb92636931c6de210708496baf3242d926
+vendor/etc/camera/almalence_sr_params_wide.config|6a6a60550bf08b540ab2948baaf332b8c9c91389
+vendor/etc/camera/beauty_ui9_intelligent_params.config|2318e6290c3a0a9385b3341a300f86cb4ebe4793
+vendor/etc/camera/body_slim_ui9_params.config|6a341b766aa06b6f8496fd96c440ea27a023eb0b
+vendor/etc/camera/camxoverridesettings.txt|15f27d27514335e3db4dd74802cfd8797a9eea30
+vendor/etc/camera/CFR_para_T.bin|2d92d6dc110e327caa21441f5e93de6a41622ae1
+vendor/etc/camera/CFR_para_UW.bin|6afa361de58a46c651261e316b459185598bdb72
+vendor/etc/camera/CFR_para_W.bin|762333d2e379d9a3d7d1768d244683b692e0dd25
+vendor/etc/camera/eisoverridesettings.txt|4ea9ba43f55eaf0ac3106a0b63c49654af741270
+vendor/etc/camera/eyelineblush.cng|f85c3388ab3112ad8963e004c47b131e5d567cca
+vendor/etc/camera/LDC_FPC_TUNING_DATA.bin|21a0e726d5c8ca1003147051d7d8577cc4d46772
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x01.bin|6d94325970a03baec460b62ad1249ddc5b78bd2b
+vendor/etc/camera/LDC_PACKDATA_VENDORID_0x07.bin|9d6a5e5e260d425dd6fa02a8d1b5329720b82f35
+vendor/etc/camera/LDC_table_src1.dat|6c2799f941410f43050671205d96de399a05cfab
+vendor/etc/camera/lf_facerank_model.bin|457f91e4027b7faef4d0fa889853e4f692e910c9
+vendor/etc/camera/sceneDetection.xml|ed7c9237881c670d5cc731732a0d9f4f592d21ba
+vendor/etc/camera/sdm_ys_32p_120_21_5_perturb50.bin|1ca031d5f8eb0e6aa3eedf7df8d53223b5054bc5
 
-# Camera-firmware
-vendor/firmware/CAMERA_ICP.elf
+# Camera-firmware - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/firmware/CAMERA_ICP.elf|60a310efffb18a1100477d80f6e9a9084baca85a
 
-# Camera Popup
-lib/vendor.xiaomi.hardware.motor@1.0.so
-lib64/vendor.xiaomi.hardware.motor@1.0.so
-vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
-vendor/etc/step_motor/mi_camera_config.xml
-vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so
-vendor/lib64/libmivendor_module_calibration.so
-vendor/lib64/libmivendor_module_hall.so
-vendor/lib64/libmivendor_module_motor.so
-vendor/lib64/mi.motor.daemon.so
-vendor/lib64/vendor.xiaomi.hardware.motor@1.0.so
+# Camera Popup - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+lib/vendor.xiaomi.hardware.motor@1.0.so|87c927d68ca6b4a93707af423f4984b72222ecc9
+lib64/vendor.xiaomi.hardware.motor@1.0.so|b64f9482f7c906d3a50c0a786312a4d92ff81560
+vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service|d21d7ec9b5f72fef481eadc12645d031ff6c698a
+vendor/etc/step_motor/mi_camera_config.xml|7df5218b9549c81e6c4cfc8ee7b203ce45c21d4f
+vendor/lib64/hw/vendor.xiaomi.hardware.motor@1.0-impl.so|895f9229ee146dc1ea51dd047b8f91f6b4c750dd
+vendor/lib64/libmivendor_module_calibration.so|3cac895724cf415f3dfe860557d0da81d69fc088
+vendor/lib64/libmivendor_module_hall.so|ef8524aca4b55d3bc84d1754772301f2271bdc88
+vendor/lib64/libmivendor_module_motor.so|5169642f2a5d2dfc40a5f41e8716b2aa4031adb4
+vendor/lib64/mi.motor.daemon.so|dfbe97ae956b7c533f2e30e4019a57117d1cb2a8
+vendor/lib64/vendor.xiaomi.hardware.motor@1.0.so|788e60b067d028c5624d649fd721fd42c5b50441
 
-# Camera Popup Sound
-media/audio/ui/popup_cangmen_down.ogg
-media/audio/ui/popup_cangmen_up.ogg
-media/audio/ui/popup_chilun_down.ogg
-media/audio/ui/popup_chilun_up.ogg
-media/audio/ui/popup_jijia_down.ogg
-media/audio/ui/popup_jijia_up.ogg
-media/audio/ui/popup_mofa_down.ogg
-media/audio/ui/popup_mofa_up.ogg
-media/audio/ui/popup_muqin_down.ogg
-media/audio/ui/popup_muqin_up.ogg
-media/audio/ui/popup_yingyan_down.ogg
-media/audio/ui/popup_yingyan_up.ogg
+# Camera Popup Sound - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+media/audio/ui/popup_cangmen_down.ogg|573b107889ccf639db5455af21129ce1fee93bc5
+media/audio/ui/popup_cangmen_up.ogg|f152dea254b4eaae403b791c49c60c05ccf12ea7
+media/audio/ui/popup_chilun_down.ogg|e200a3de45abbf2057ca0c6a735b6a6a78ec1b1c
+media/audio/ui/popup_chilun_up.ogg|908bd714b58648c8861c0e56ca7c6f0db84d4e2b
+media/audio/ui/popup_jijia_down.ogg|680b41897aaa47972630012e0c68396bf4cbe9c7
+media/audio/ui/popup_jijia_up.ogg|bd71c2f07f439a2afc9e9b435ef8d1a7a28a4fc1
+media/audio/ui/popup_mofa_down.ogg|ebfec5126f64a5eea69aad43af169de5eed398ae
+media/audio/ui/popup_mofa_up.ogg|95ef57769ca5e4a3264e4adf7c9958d55ff1a32c
+media/audio/ui/popup_muqin_down.ogg|3ecf82ae3d4ec853e0832901d2163c252ad62e07
+media/audio/ui/popup_muqin_up.ogg|047ae904c2932bc6112cd7ef4458f4cad1972181
+media/audio/ui/popup_yingyan_down.ogg|de1623b20f311322dc79a3d152ca30318e1ed0db
+media/audio/ui/popup_yingyan_up.ogg|0c3a716ba49dd682a6d58cca04eece0f81ca6834
 
-# Camera-sensors
-vendor/lib64/libmmcamera_faceproc.so
-vendor/lib64/libmmcamera_faceproc2.so
+# Camera-Extra - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/etc/camera/LDC_table_src2.dat|f35be47fc631f8b50267ec9a1bee4a3ebfbe518d
+vendor/etc/camera/MIUI_Time.ttf|ad1c4cb5fdc53731c4b263076d8a0a183fbe263d
+vendor/etc/camera/Miui-Light.ttf|e2eb7464fb42d6d2395d4ab9953ce101291677fb
+vendor/etc/camera/Roboto-Thin.ttf|7b547cf873946be911aedc5ebb4d630678e7968f
+vendor/etc/camera/female_bg.png|1209828fb0b4d425ee75498531bdcfe2f4eacb2e
+vendor/etc/camera/female_icon.png|ebd7db92ef2f28d191e68c3b955ba7c2053c7418
+vendor/etc/camera/fonts.xml|fc70d2a47a32f768b19c3978cb459769f4a28b61
+vendor/etc/camera/golden_rear_dc_cal_wu.bin|f5788e72a14598fc079697de3d41949e5828db30
+vendor/etc/camera/hdr_ui9_params.config|bd4dd58c8633a993ce6c8552aa615d9f7d1aa5ff
+vendor/etc/camera/male_bg.png|2648ece202669141be45ccc09a688ec8e6465533
+vendor/etc/camera/male_icon.png|d17f76b5937bd3f6a9afb04bcf83da98600788e5
+vendor/etc/camera/score_bg.png|6628867b901936b88fb6f88d494987a1b43533ec
+vendor/etc/camera/score_icon.png|8580e0abbf401a09c6581b82e9c00cd78fb8951f
+vendor/etc/camera/visidon_clearshot_params_algoup.xml|ee064b324f3e4369a2d081b774076d2b71f6246a
+vendor/etc/camera/watermark_font_2300_3199.dat|470c10429888b89966af5eb610b13b843a1a0248
+vendor/lib64/libnanopb.so|960dd09cc5891fc89d1e557187dcb27f81747d14
 
-# Camera-Extra
-vendor/etc/camera/LDC_table_src2.dat
-vendor/etc/camera/MIUI_Time.ttf
-vendor/etc/camera/Miui-Light.ttf
-vendor/etc/camera/Roboto-Thin.ttf
-vendor/etc/camera/female_bg.png
-vendor/etc/camera/female_icon.png
-vendor/etc/camera/fonts.xml
-vendor/etc/camera/golden_rear_dc_cal_wu.bin
-vendor/etc/camera/hdr_ui9_params.config
-vendor/etc/camera/male_bg.png
-vendor/etc/camera/male_icon.png
-vendor/etc/camera/score_bg.png
-vendor/etc/camera/score_icon.png
-vendor/etc/camera/visidon_clearshot_params_algoup.xml
-vendor/etc/camera/watermark_font_2300_3199.dat
-vendor/lib64/libnanopb.so
-
-# Charger
-vendor/bin/hvdcp_opti
+# Charger - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/hvdcp_opti|e03e8467d6f5dbfe2d099a7eafde8efa552bf9ff
+vendor/bin/init.qti.chg_policy.sh|b1301822b93f588c735fa86edc707c47340d0736
+vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
+vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
 
 # DPM
 framework/tcmclient.jar
@@ -517,45 +515,47 @@ vendor/lib64/libsdmextension.so
 vendor/lib64/libtinyxml.so
 vendor/lib64/libtinyxml2_1.so
 
-# Display-calibration
+# Display-calibration - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/etc/sdr_config.cfg|4e0901a44be67f92b747e2c34d13f8858f9cc010
+vendor/etc/hdr_config.cfg|14bd7906643998c6b6bb51be5f20007232eaccc3
+
+# Display-calibration(QDCM) - from raphaelin V12.0.4.0.QFKINXM
 vendor/etc/qdcm_calib_data_samsung_ea8076_fhd_cmd_dsi_panel.xml|9e5b1931b0c971561afff5ecb6a2e57518997003
-vendor/etc/sdr_config.cfg
-vendor/etc/hdr_config.cfg
 
-# Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
--vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml
-vendor/lib/hw/fingerprint.goodix_fod.so
-vendor/lib/libgf_hal.so
-vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/hw/fingerprint.goodix_fod.so
-vendor/lib64/libarm_proxy_skel.so
-vendor/lib64/libgf_hal.so
-vendor/lib64/libhvx_proxy_stub.so
-vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so
+# Fingerprint - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|4e1d005a5e57f337b664bb6308e286ea46e7a38c
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc|b7ebf3f899906f3d8bb4db8d957984a1773edd20
+-vendor/etc/vintf/manifest/android.hardware.biometrics.fingerprint@2.1-service.xml|49e82d6a43981e254d224dcc93b3ff27e0fb8407
+vendor/lib/hw/fingerprint.goodix_fod.so|555cc68594ed908ecbea9f88dfad1bb5fd81ba38
+vendor/lib/libgf_hal.so|043e2c054cd197cbfeb99ba1eae7cb2ce382ca33
+vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so|fa3518be64523a9f8c157992c22571ca62dd2709
+vendor/lib64/hw/fingerprint.goodix_fod.so|6c5ff96de82cca1c2ce9aeae79cdb3f92fcb1a16
+vendor/lib64/libarm_proxy_skel.so|6debebf554aee45b79c566937720e7ac88bc0cc5
+vendor/lib64/libgf_hal.so|566c943e59fb5972d2629010dd6903b24b0c8b0e
+vendor/lib64/libhvx_proxy_stub.so|f1731311a709ae847b905141164e66f5ec393c02
+vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so|8ccb882cb397650f4e4f7797423ce70ff5e7a7a1
+vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0.so|393d8da1466f00bc4479f557ce5d41b879831eee
 
-# Firmware
-vendor/firmware/a630_sqe.fw
-vendor/firmware/a640_gmu.bin
-vendor/firmware/a640_zap.b00
-vendor/firmware/a640_zap.b01
-vendor/firmware/a640_zap.b02
-vendor/firmware/a640_zap.elf
-vendor/firmware/a640_zap.mdt
-vendor/firmware/goodix_gt9886_limit_f11_first.tporder
-vendor/firmware/goodix_gt9886_limit_f11_second.tporder
-vendor/firmware/ipa_uc.b00
-vendor/firmware/ipa_uc.b01
-vendor/firmware/ipa_uc.b02
-vendor/firmware/ipa_uc.elf
-vendor/firmware/ipa_uc.mdt
+# Firmware - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/firmware/a630_sqe.fw|e25094f97b44244775cc38a9d909fba6bd4cf76b
+vendor/firmware/a640_gmu.bin|fb1eab0dd5f313abf31441e2209c9398da7df98b
+vendor/firmware/a640_zap.b00|7afc31984d7eeacdd0fc78118ad8fa46c9b3e4ee
+vendor/firmware/a640_zap.b01|f9cfeb7df82a102d407a5e30986e7c22a372e76a
+vendor/firmware/a640_zap.b02|27d26ca0ae982c065fb7ab58be73bf3ca2e8bdf3
+vendor/firmware/a640_zap.elf|e73dadd547a60843b8d93a6e6c8427ea2db54420
+vendor/firmware/a640_zap.mdt|6e7c456e858240bdc5d5a2c0ac7535a28e2ebced
+vendor/firmware/goodix_gt9886_limit_f11_first.tporder|acbd886e032c7d5b84fb0a075f924971dccfe587
+vendor/firmware/goodix_gt9886_limit_f11_second.tporder|d8f38e5ee33d05353d38cc31bf356ae0d839f2ff
+vendor/firmware/ipa_uc.b00|eb39c03229e8aa6b98d85dedddcd6578d7bc8595
+vendor/firmware/ipa_uc.b01|5173f8cc202b7471d923b1053261c753d263898e
+vendor/firmware/ipa_uc.b02|3b10a38f61f127c190649d7cbf8ae508c797e924
+vendor/firmware/ipa_uc.elf|3617995753de2be96b97e923615b852e635d6849
+vendor/firmware/ipa_uc.mdt|4ab73473874327a7862ee0a5b6aa99e344fbb896
 
 # FM
-lib64/fm_helium.so
-lib64/libfm-hci.so
--product/lib64/vendor.qti.hardware.fm@1.0.so
+system_ext/lib64/fm_helium.so
+system_ext/lib64/libfm-hci.so
+-system_ext/lib64/vendor.qti.hardware.fm@1.0.so
 vendor/bin/fm_qsoc_patches
 vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so
 vendor/lib/vendor.qti.hardware.fm@1.0.so
@@ -599,11 +599,11 @@ vendor/lib64/vendor.qti.gnss@4.0.so
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so
 vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 
-# Gatekeeper
-vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
-vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc
-vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so
-vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so
+# Gatekeeper - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti|75a185c5a16bd31c92b1caace8ee4a0f7e9f4ee9
+vendor/etc/init/android.hardware.gatekeeper@1.0-service-qti.rc|1b8d5f58fe0a57906acf72b862c16a2521daa97b
+vendor/lib/hw/android.hardware.gatekeeper@1.0-impl-qti.so|58005d76c8d4de562f28728b006db64be07fc958
+vendor/lib64/hw/android.hardware.gatekeeper@1.0-impl-qti.so|09d26b662e60ba0c849f8208ea03bbf7d2b1b5f0
 
 # Graphics
 vendor/lib/egl/eglSubDriverAndroid.so
@@ -659,29 +659,29 @@ vendor/firmware/ipa_fws.b04
 vendor/firmware/ipa_fws.elf
 vendor/firmware/ipa_fws.mdt
 
-# Keymaster
-vendor/bin/hw/android.hardware.keymaster@3.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.1-service-qti
-vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqcbor.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib/libspcom.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqcbor.so
-vendor/lib64/libqtikeymaster4.so
-vendor/lib64/libspcom.so
+# Keymaster - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/hw/android.hardware.keymaster@3.0-service-qti|a238ec6b73152efecaa7ceaece4ebc86306237b1
+vendor/bin/hw/android.hardware.keymaster@4.0-service-qti|97853e573163c69d1e9408d11bec9e94543b0524
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|dd28418cf9fb70a8df08c6f0040a033fb76c1b2b
+vendor/bin/hw/android.hardware.keymaster@4.0-strongbox-service-qti|8a9d9260ad9afe0057f0c00af9f09f395d6f6ed2
+vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc|c8999fb1bccbef81e6b362059e9a6ebd023de98f
+vendor/lib/libkeymasterdeviceutils.so|afb8919bb508b6b245f4b8e17e953af269526548
+vendor/lib/libkeymasterprovision.so|4c740ca80b066a716712a936b5843c2d219475a4
+vendor/lib/libkeymasterutils.so|b858213f907f494e0f95d815d645116508340971
+vendor/lib/libqcbor.so|200fed58c65f38b9a0334d7c4d1c319cae94c9de
+vendor/lib/libqtikeymaster4.so|362b7cfe77d84c52153f7814ffdc2bac036bdc9e
+vendor/lib/libspcom.so|3d9495c44848e6e2b2fbc2f794c24e5be37427fc
+vendor/lib64/libkeymasterdeviceutils.so|f95b8401343efd8af098b45f25afb97dfb60de19
+vendor/lib64/libkeymasterprovision.so|2004bab12a51dcaeef2e838492b5d1fa6532b898
+vendor/lib64/libkeymasterutils.so|b9c888d579c9cf7a1c8f463be4048eb9d935daf8
+vendor/lib64/libqcbor.so|67acd94f3c7110c9419f0fd064b6eb69c09a0738
+vendor/lib64/libqtikeymaster4.so|6b84db846c36c07d416259d1f01830895ff4b57c
+vendor/lib64/libspcom.so|eef7a179687dfbc4a2d317f4e5c45a3ae64cbd10
 
-# Keystore
-vendor/lib64/libkeystore-engine-wifi-hidl.so
-vendor/lib64/libkeystore-wifi-hidl.so
-vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so
+# Keystore - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/lib64/libkeystore-engine-wifi-hidl.so|5a39a833ac4fc48fd68ea1aa2fa8b09ee7614d4e
+vendor/lib64/libkeystore-wifi-hidl.so|d1ff7be5a23fe170a36779abf8912f71bccbc83f
+vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so|1653a686e9072575abfe4201c667a077b31a79ef
 
 # Listen
 vendor/lib/hw/sound_trigger.primary.msmnile.so
@@ -755,33 +755,57 @@ vendor/lib64/hw/vendor.qti.power.pasrmanager@1.0-impl.so
 vendor/lib64/vendor.qti.power.pasrmanager@1.0.so
 
 # Perf
-vendor/bin/hw/vendor.qti.hardware.perf@2.0-service
+vendor/bin/hw/vendor.qti.hardware.iop@2.0-service
+vendor/bin/hw/vendor.qti.hardware.perf@2.2-service
 vendor/bin/msm_irqbalance
-vendor/etc/msm_irqbalance.conf
-vendor/etc/init/vendor.qti.hardware.perf@2.0-service.rc
+vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc
+vendor/etc/init/vendor.qti.hardware.perf@2.2-service.rc
 vendor/etc/lm/AdaptLaunchFeature.xml
 vendor/etc/lm/AppClassifierFeature.xml
 vendor/etc/lm/GameOptimizationFeature.xml
+vendor/etc/msm_irqbalance.conf
 vendor/etc/perf/commonresourceconfigs.xml
 vendor/etc/perf/perfboostsconfig.xml
 vendor/etc/perf/perfconfigstore.xml
 vendor/etc/perf/targetconfig.xml
 vendor/etc/perf/targetresourceconfigs.xml
-vendor/etc/perf/thermalboost.conf
+vendor/lib/libperfconfig.so
 vendor/lib/libperfgluelayer.so
+vendor/lib/libperfioctl.so
+vendor/lib/libqti-iopd-client.so
+vendor/lib/libqti-iopd.so
 vendor/lib/libqti-perfd-client.so
 vendor/lib/libqti-perfd.so
 vendor/lib/libqti-util.so
+vendor/lib/libqti-utils.so
+vendor/lib/libskewknob.so
+vendor/lib/vendor.qti.hardware.iop@1.0.so
+vendor/lib/vendor.qti.hardware.iop@2.0.so
 vendor/lib/vendor.qti.hardware.perf@2.0.so
+vendor/lib/vendor.qti.hardware.perf@2.1.so
+vendor/lib/vendor.qti.hardware.perf@2.2.so
+vendor/lib64/libadaptlaunch.so
 vendor/lib64/libappclassifier.so
+vendor/lib64/libgameoptfeature.so
 vendor/lib64/liblearningmodule.so
+vendor/lib64/libmeters-ns.so
 vendor/lib64/libmeters.so
-vendor/lib64/libperfgluelayer.so
 vendor/lib64/libperfconfig.so
+vendor/lib64/libperfgluelayer.so
+vendor/lib64/libperfioctl.so
+vendor/lib64/libqti-iopd-client.so
+vendor/lib64/libqti-iopd.so
 vendor/lib64/libqti-perfd-client.so
 vendor/lib64/libqti-perfd.so
 vendor/lib64/libqti-util.so
+vendor/lib64/libqti-utils.so
+vendor/lib64/libreffeature.so
+vendor/lib64/libskewknob.so
+vendor/lib64/vendor.qti.hardware.iop@1.0.so
+vendor/lib64/vendor.qti.hardware.iop@2.0.so
 vendor/lib64/vendor.qti.hardware.perf@2.0.so
+vendor/lib64/vendor.qti.hardware.perf@2.1.so
+vendor/lib64/vendor.qti.hardware.perf@2.2.so
 
 # Peripheral
 vendor/bin/pm-proxy
@@ -1003,49 +1027,49 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so
 vendor/bin/ssr_setup
 vendor/bin/sscrpcd
 
-# Sensor-configs
-vendor/etc/sensors/config/adux1050_0.json
-vendor/etc/sensors/config/ak991x_dri_0.json
-vendor/etc/sensors/config/icm4x6xx_0.json
-vendor/etc/sensors/config/shtw2_0.json
-vendor/etc/sensors/config/sm8150_adux1050_0.json
-vendor/etc/sensors/config/sm8150_ak991x_0.json
-vendor/etc/sensors/config/sm8150_icm4x6xx_0.json
-vendor/etc/sensors/config/sm8150_power_0.json
-vendor/etc/sensors/config/sm8150_shtw2_0.json
-vendor/etc/sensors/config/sm8150_tcs3701.json
-vendor/etc/sensors/config/sm8150_vl53l1_tof_0.json
-vendor/etc/sensors/config/sns_amd.json
-vendor/etc/sensors/config/sns_amd_sw_disabled.json
-vendor/etc/sensors/config/sns_amd_sw_enabled.json
-vendor/etc/sensors/config/sns_aod.json
-vendor/etc/sensors/config/sns_basic_gestures.json
-vendor/etc/sensors/config/sns_bring_to_ear.json
-vendor/etc/sensors/config/sns_ccd.json
-vendor/etc/sensors/config/sns_cm.json
-vendor/etc/sensors/config/sns_dae.json
-vendor/etc/sensors/config/sns_device_orient.json
-vendor/etc/sensors/config/sns_diag_filter.json
-vendor/etc/sensors/config/sns_distance_bound.json
-vendor/etc/sensors/config/sns_dpc.json
-vendor/etc/sensors/config/sns_facing.json
-vendor/etc/sensors/config/sns_fmv.json
-vendor/etc/sensors/config/sns_geomag_rv.json
-vendor/etc/sensors/config/sns_gyro_cal.json
-vendor/etc/sensors/config/sns_mag_cal.json
-vendor/etc/sensors/config/sns_multishake.json
-vendor/etc/sensors/config/sns_nonui.json
-vendor/etc/sensors/config/sns_pedometer.json
-vendor/etc/sensors/config/sns_rmd.json
-vendor/etc/sensors/config/sns_rotv.json
-vendor/etc/sensors/config/sns_smd.json
-vendor/etc/sensors/config/sns_tilt.json
-vendor/etc/sensors/config/sns_tilt_sw_disabled.json
-vendor/etc/sensors/config/sns_tilt_sw_enabled.json
-vendor/etc/sensors/config/sns_tilt_to_wake.json
-vendor/etc/sensors/config/tcs3701.json
-vendor/etc/sensors/config/vl53l1_tof_0.json
-vendor/etc/sensors/sns_reg_config
+# Sensor-configs - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/etc/sensors/config/adux1050_0.json|8784892f77fe235cc2e7ed25c01755a0826d73af
+vendor/etc/sensors/config/ak991x_dri_0.json|c0afe3a8931cedd901ff38c60d11656800939271
+vendor/etc/sensors/config/icm4x6xx_0.json|4fd166c83b908a754c5d068ec7055e6f580a9bdb
+vendor/etc/sensors/config/shtw2_0.json|27c3f68ea8792cfcec8c8ce1514b88041b9f6a30
+vendor/etc/sensors/config/sm8150_adux1050_0.json|2ce11d57610f494df30367f9145fbcb8bc2e2fbe
+vendor/etc/sensors/config/sm8150_ak991x_0.json|7cb94aedd9c848385e4c57730ba0f3e9079946c2
+vendor/etc/sensors/config/sm8150_icm4x6xx_0.json|f482c7ed91b2a7949f58dfab7da14f1affe5dd82
+vendor/etc/sensors/config/sm8150_power_0.json|42afbc87427ef886466920806d294016fcbef403
+vendor/etc/sensors/config/sm8150_shtw2_0.json|3a93c6f8097e646ed6840e90503f6273d8eebd62
+vendor/etc/sensors/config/sm8150_tcs3701.json|9aa06212b6bb6d1230b4975f0e54f7cabf6aed04
+vendor/etc/sensors/config/sm8150_vl53l1_tof_0.json|1e8d73f2c29e541824ce4dc5d75b09f28a0e526b
+vendor/etc/sensors/config/sns_amd.json|2c6f793e964926a754e4ed1e7abf933f2870bcd4
+vendor/etc/sensors/config/sns_amd_sw_disabled.json|62e008a7d925da22005a15de16ea2d919c976a90
+vendor/etc/sensors/config/sns_amd_sw_enabled.json|86706e8627d7fa04ba1140f762a74d104fba44da
+vendor/etc/sensors/config/sns_aod.json|cff5a9b9d30edfbe0bd17777419b352a9ae9b969
+vendor/etc/sensors/config/sns_basic_gestures.json|f3e9317640d8a42b12a1a157a6e77ac0eb3f7cf2
+vendor/etc/sensors/config/sns_bring_to_ear.json|bf3e99317eeb7ae8998593a2fe67bed3b339debc
+vendor/etc/sensors/config/sns_ccd.json|bab6e1847137fcf45e48fca4c1ad284de58abc05
+vendor/etc/sensors/config/sns_cm.json|65d2bda857d1a801a2db5ef322068243a3c03b14
+vendor/etc/sensors/config/sns_dae.json|f0ab95de730e68edaf9173674a3918429477e531
+vendor/etc/sensors/config/sns_device_orient.json|734e065cb54b808d60b3f4e2a511e54f837564ef
+vendor/etc/sensors/config/sns_diag_filter.json|bf3041f24a003f036e844923922f78959595d1d7
+vendor/etc/sensors/config/sns_distance_bound.json|4430eb9c5aacf6a809e184c0c3453567a8187d68
+vendor/etc/sensors/config/sns_dpc.json|588e6def73112644330c959a493831092dfa000b
+vendor/etc/sensors/config/sns_facing.json|32fc9fa3acbfe8940eb4e83d2dee2da5bbdda358
+vendor/etc/sensors/config/sns_fmv.json|e02e5e6d95d7182974ca03c88ea6d83fc5ac82dd
+vendor/etc/sensors/config/sns_geomag_rv.json|2102e6799d11159cf295a3321063fd690333dfbc
+vendor/etc/sensors/config/sns_gyro_cal.json|b336b90d0b3a1eb14554f3ee0cbf9b717fad518e
+vendor/etc/sensors/config/sns_mag_cal.json|5724f628f2cfa08fe7a5b02f64e76d502967d1ad
+vendor/etc/sensors/config/sns_multishake.json|196c1ffcec41ac65e342a43c9e66df6efacb8865
+vendor/etc/sensors/config/sns_nonui.json|7101465ae838aaf32b33de30dacc4429419a8a89
+vendor/etc/sensors/config/sns_pedometer.json|7a687898f2f96e4f2222227bdda8290a70a24004
+vendor/etc/sensors/config/sns_rmd.json|8ce28bcbdc7b40b657b897721b099e4e2cd26660
+vendor/etc/sensors/config/sns_rotv.json|3f801390b9b2e9fb69eb9c5ab3e2b7e0cbee9ffd
+vendor/etc/sensors/config/sns_smd.json|613bacccf4d2bcbaaf984d2475ed7835d5651793
+vendor/etc/sensors/config/sns_tilt.json|89215b1f678741c60409d926d19ec539b5059cf0
+vendor/etc/sensors/config/sns_tilt_sw_disabled.json|3c1d556fcabbbfb9c697f390aecab18a6a91a85b
+vendor/etc/sensors/config/sns_tilt_sw_enabled.json|dd3df3b15d330ee9de227b8d59ceef23e419c229
+vendor/etc/sensors/config/sns_tilt_to_wake.json|a8e3b08138a5f5569cfcd2eb66e2030ee34c967e
+vendor/etc/sensors/config/tcs3701.json|487bee85e2ebc41ab702a1bdc3633b30601f4e45
+vendor/etc/sensors/config/vl53l1_tof_0.json|d44dc45094d621c2aaf2ce50fa2b01dc1be23e45
+vendor/etc/sensors/sns_reg_config|10b80bbe06f4d0dc2f50e81e99d7d500288132e2
 
 # Sensors
 vendor/bin/sensors.qti
@@ -1055,21 +1079,21 @@ vendor/lib64/libssc.so
 vendor/lib64/libssc_default_listener.so
 vendor/lib64/sensors.ssc.so
 
-# Thermal
-vendor/bin/mi_thermald
-vendor/bin/thermal-engine
-vendor/etc/init/init.mi_thermald.rc
-vendor/etc/thermal-arvr.conf
-vendor/etc/thermal-camera.conf
-vendor/etc/thermal-chg-only.conf
-vendor/etc/thermal-engine.conf
-vendor/etc/thermal-map.conf
-vendor/etc/thermal-nolimits.conf
-vendor/etc/thermal-normal.conf
-vendor/etc/thermal-phone.conf
-vendor/etc/thermal-tgame.conf
-vendor/etc/thermald-devices.conf
-vendor/lib64/libthermalclient.so
+# Thermal - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/mi_thermald|ad7a7860361824ee93e6a828f932ccf2ba144910
+vendor/bin/thermal-engine|e74184e124c41e51535fad6a6ad9cc089695211b
+vendor/etc/init/init.mi_thermald.rc|434b0cc0cb28b84255e5415d66b07cc75a4e9af1
+vendor/etc/thermal-arvr.conf|10babd80f94cf5ba039e601a5aba6837675aff9d
+vendor/etc/thermal-camera.conf|e481de2527705a1b254df65dbd98a3cc6a5d31e3
+vendor/etc/thermal-chg-only.conf|3e3b59dab040a614472dd429aa20f6d7980b2e8b
+vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
+vendor/etc/thermal-map.conf|c860af4251b7e4ba6f769698205ce0ecea2dd016
+vendor/etc/thermal-nolimits.conf|d266224e0e40bf14a8c51d3362144123f55eb18f
+vendor/etc/thermal-normal.conf|d58c638824c03c45d8fd12a2ba185bcd8a1d1262
+vendor/etc/thermal-phone.conf|7c115055aa3b09d793c701ca36282e973d6435e2
+vendor/etc/thermal-tgame.conf|744a54f3206a09632293ef2fbf7a25959554ca8b
+vendor/etc/thermald-devices.conf|2b145e63c3a43d41e38d689bd4486130a9231ae1
+vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
 
 # Time
 -vendor/app/TimeService/TimeService.apk
@@ -1077,9 +1101,9 @@ vendor/bin/time_daemon
 vendor/lib64/libtime_genoff.so
 vendor/etc/init/init.time_daemon.rc
 
-# WiFi
-vendor/bin/cnss-daemon
-vendor/bin/nv_mac
+# WiFi(Xiaomi) - from miui_RAPHAEL_21.4.7_269b256e5c_11.0
+vendor/bin/cnss-daemon|fc11cd14ba5d4f9f40eb200dd83fe33a5b171274
+vendor/bin/nv_mac|7eb3fd076e39d6bc1a498ed5256709069c210c46
 
 # WiFi Display
 -system/framework/WfdCommon.jar
