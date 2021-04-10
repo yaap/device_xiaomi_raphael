@@ -686,12 +686,14 @@ vendor/lib64/vendor.qti.hardware.wifi.keystore@1.0.so|1653a686e9072575abfe4201c6
 # Listen
 vendor/lib/hw/sound_trigger.primary.msmnile.so
 vendor/lib/libadpcmdec.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libcapiv2vop.so
 vendor/lib/libgcs-calwrapper.so
 vendor/lib/libgcs-ipc.so
 vendor/lib/libgcs-osal.so
 vendor/lib/libgcs.so
 vendor/lib/liblistensoundmodel2.so
-vendor/lib/librice.so
+vendor/lib/libmulawdec.so
 vendor/lib/libsmwrapper.so
 
 # Media
