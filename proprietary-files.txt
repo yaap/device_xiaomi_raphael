@@ -88,7 +88,6 @@ vendor/etc/acdbdata/adsp_avs_config.acdb|31429a20327b5cb5d3f0dd0b5f04a0f639e8f94
 # Audio (Configs) - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
 vendor/etc/audio_configs.xml|1bff36b6a5e8cc2774e0e67acac28faf163db001
 vendor/etc/audio_configs_stock.xml|fb9bb86cb539da58772c053828346f4e132ef0b8
-vendor/etc/audio_effects.xml|02268b65d598144be83922d8c82d5a0b4327fb60
 vendor/etc/audio_io_policy.conf|5a41d1c69a8dc03ce28261f59a4e175bd5ab5bca
 vendor/etc/audio_policy_volumes.xml|79ba8b72761ae39b0b026450f2f8bcf4deffa854
 vendor/etc/audio_tuning_mixer.txt|4a69ef1a54980ac1a70295c5048c567a38bfe76f
