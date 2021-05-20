@@ -30,8 +30,6 @@ vendor/lib/rfsa/adsp/libfastcvdsp_skel.so|096236d79d282a872a3226fea3a0dafd671847
 vendor/lib/rfsa/adsp/libhexagon_nn_skel.so|55d2c71535acdcbbdd7b0a3fe475249c8d99eb08
 vendor/lib/rfsa/adsp/libproxy_skel.so|a60d7c8b9d3e6784ba68ed9053b8f569984810ba
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so|c30bb30eecf968e02f72c055d3cc13a7f769644f
-vendor/lib/rfsa/adsp/misound_karaoke_res.bin|47291d1ed9b942e3cdb24602e9eded01bf4580fb
-vendor/lib/rfsa/adsp/misound_karaokemix_res.bin|1b6114eeefa29e36f10571ae5dde4ba84625982c
 vendor/lib/rfsa/adsp/misound_res.bin|d08fb852de9a354f60c18cd5186d2e1cdbbd2ad4
 
 # Alarm
@@ -54,23 +52,8 @@ vendor/lib/libacdbrtac.so|ad042bc265f1602fce9af9a689e1358148539516
 vendor/lib/libadiertac.so|4b1228737d97450c34788404cc30f3752b1afa54
 vendor/lib/libadm.so|c5d8693dbec640d3366ad7620833b2e4387f3c01
 vendor/lib/libaudcal.so|afe50c7f6bba5f875904d27e40d0325ac28462c9
-vendor/lib/libaudio_log_utils.so|71ec4d31ad6c9e9a4bee8db7b5ab55b70ef7c4c3
-vendor/lib/libaudioconfigstore.so|a00b695d8ec2666bdce729e0f947149c3b78b2b5
-vendor/lib/libaudioroute_ext.so|401c86a70a064355e6df3cc6224f7d8168562f96
-vendor/lib/libcomprcapture.so|e5c5c0093d791821a58881cfa4cb8a0ddaf9de09
-vendor/lib/libdrc.so|e27974e53efe0456cba96f6910ad977c6351d0b7
-vendor/lib/libexthwplugin.so|d6752e3c9e542e0fe371d08884768a71f7396c07
-vendor/lib/libhdmiedid.so|b930c3540f3a52a775688ab9d05c431165c5c0cf
-vendor/lib/libhdmipassthru.so|8c1bbfe9408ef39b63ab6a20600813d9901fb860
-vendor/lib/libhfp.so|b180df6f79e772c046ea328c0d08e75e86ef213c
 vendor/lib/libqtigef.so|5aa066c6ccd42777969bab3e9539236c5a140dab
-vendor/lib/libsndmonitor.so|889d424582a0cf508487c921a01198967c04829a
-vendor/lib/libspkrprot.so|3f485af891d8dca5779b74093b08cc79e8757c34
-vendor/lib/libsurround_3mic_proc.so|1d425b4b0d89f68e0f0112e8f2f73b1cd5b6dea2
 vendor/lib/libtinycompress.so|48485b61c09beaf128f1574f40fb8c9975426c8a
-vendor/lib/soundfx/libasphere.so|44cd20e13920888b29d3b2e4bb0b2559a746bf8f
-vendor/lib/soundfx/libmisoundfx.so|899b441d5b533c723a6d5295c982a0acccd13966
-vendor/lib/soundfx/libshoebox.so|8c25f9bd479540f1b43c6827020376a40a667270
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|188bfa1f6971a76651e585805698390638e35b4b
 
 # Audio (ACDB) - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
@@ -86,18 +69,11 @@ vendor/etc/acdbdata/Forte/Forte_workspaceFile.qwsp|6fde0855ea154e64c93233920f91c
 vendor/etc/acdbdata/adsp_avs_config.acdb|31429a20327b5cb5d3f0dd0b5f04a0f639e8f94b
 
 # Audio (Configs) - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
-vendor/etc/audio_configs.xml|1bff36b6a5e8cc2774e0e67acac28faf163db001
-vendor/etc/audio_configs_stock.xml|fb9bb86cb539da58772c053828346f4e132ef0b8
 vendor/etc/audio_io_policy.conf|5a41d1c69a8dc03ce28261f59a4e175bd5ab5bca
 vendor/etc/audio_policy_volumes.xml|79ba8b72761ae39b0b026450f2f8bcf4deffa854
 vendor/etc/audio_tuning_mixer.txt|4a69ef1a54980ac1a70295c5048c567a38bfe76f
 vendor/etc/audio_tuning_mixer_tavil.txt|4a69ef1a54980ac1a70295c5048c567a38bfe76f
-vendor/etc/graphite_ipc_platform_info.xml|37f3ab5eaac375fb235d66018a794ce314e8de7e
 vendor/etc/mixer_paths_pahu.xml|bcc94ec4fe0d25d9d7ee7105cd4a9842bcc03111
-
-# Audio (Hardware) - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
-vendor/lib/hw/audio.primary.msmnile.so|c8c6b902782451fb7b51c1b6e867cead5b5a7a3c
-vendor/lib64/hw/audio.primary.msmnile.so|813b9779131cebcde576cfcb6d99588d53aaa924
 
 # Bluetooth - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|323c931eb367ed303d71f435c407cfcbc96d079c
@@ -113,7 +89,6 @@ vendor/lib/btaudio_offload_if.so|d02bff9f3c73f6d42773551fe8400851c2be2795
 vendor/lib/hw/vendor.qti.hardware.bluetooth_audio@2.0-impl.so|a124e0d1d45f00b7825b4dd58c308681a481eee9
 vendor/lib/libbluetooth_audio_session_qti.so|c2c5cf5a3ebef1746b6ee63aef9bb9fc68e70d08
 vendor/lib/vendor.qti.hardware.bluetooth_audio@2.0.so|3302ba3bf89803f58e748266bd75849531ed3e25
-vendor/lib/liba2dpoffload.so|3ea2c123d7ab42bf8eccb90b6c7e94e7e86df65d
 
 # Bluetooth(AptX)  - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
 vendor/lib/rfsa/adsp/capi_v2_aptX_Classic.so|59cbdf5d84ba2ff64014941f3ad9e6c2c35e2c06
@@ -688,13 +663,8 @@ vendor/etc/sound_trigger_mixer_paths_wcd9340.xml|93699359ec9ebe5f62a32837edcfb16
 vendor/etc/sound_trigger_mixer_paths_wcd9340_qrd.xml|8bb4449ca78bfe5bd78ffa539771e2b6a86842f9
 vendor/etc/sound_trigger_platform_info.xml|94ac38676cf78cb6ec4657a106f2aa88138965f2
 vendor/lib/hw/sound_trigger.primary.msmnile.so|54af3ce9df03f35b9c4958c1d866c4cb890a4d0d
-vendor/lib/libadpcmdec.so|5232c32b93a8653612cd8fcdde161a9d7fe39c7f
 vendor/lib/libcapiv2svacnn.so|10271e9d5a32377740292bcf27f35098ee65fb5b
 vendor/lib/libcapiv2vop.so|ffde544a5b8b4db988e92308568a84caad80518e
-vendor/lib/libgcs-calwrapper.so|e558907aacf4d613741900cc611f3195d0d4dfc7
-vendor/lib/libgcs-ipc.so|53c5708904d3d6358a49dbb928be68fc5b2c12ce
-vendor/lib/libgcs-osal.so|c8055991809da427b5fdf0b18b67cefc7b17a399
-vendor/lib/libgcs.so|fcaa2bfe5498e561a6b50373bac8c2652979638e
 vendor/lib/liblistensoundmodel2.so|8e5d795988c666c7d8c42653d6eab231bb5952cc
 vendor/lib/libmulawdec.so|4ad85b4982bf0cfed77c9bede75aac09a51ab062
 vendor/lib/libsmwrapper.so|2dac5988fc325dc990f33053dc2e289865c6ee65

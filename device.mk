@@ -65,16 +65,22 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     audio.a2dp.default \
+    audio.primary.msmnile \
     audio.bluetooth.default \
     audio.usb.default \
     audio.r_submix.default
 
 PRODUCT_PACKAGES += \
+    liba2dpoffload \
+    libhdmiedid \
+    libhfp \
     libbatterylistener \
     libvolumelistener \
     libqcomvisualizer \
     libqcomvoiceprocessing \
     libqcomvoiceprocessingdescriptors \
+    libsndmonitor \
+    libspkrprot \
     libqcompostprocbundle
 
 PRODUCT_PACKAGES += \
