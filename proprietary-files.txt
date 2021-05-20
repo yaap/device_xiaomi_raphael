@@ -94,10 +94,7 @@ vendor/etc/audio_policy_volumes.xml|79ba8b72761ae39b0b026450f2f8bcf4deffa854
 vendor/etc/audio_tuning_mixer.txt|4a69ef1a54980ac1a70295c5048c567a38bfe76f
 vendor/etc/audio_tuning_mixer_tavil.txt|4a69ef1a54980ac1a70295c5048c567a38bfe76f
 vendor/etc/graphite_ipc_platform_info.xml|37f3ab5eaac375fb235d66018a794ce314e8de7e
-vendor/etc/mixer_paths_overlay_dynamic.xml|e5e69210b07a7528e55eb3e16d04748eb90e7d70
-vendor/etc/mixer_paths_overlay_static.xml|8491a527df1881af882b63a93cc28b3f7abaee6e
 vendor/etc/mixer_paths_pahu.xml|bcc94ec4fe0d25d9d7ee7105cd4a9842bcc03111
-vendor/etc/mixer_paths_tavil.xml|efb80c56af540d1e0a08ebb761a89885f7cbcdc7
 
 # Audio (Hardware) - from raphael-user-11-RKQ1.200826.002-21.4.12-release-keys
 vendor/lib/hw/audio.primary.msmnile.so|c8c6b902782451fb7b51c1b6e867cead5b5a7a3c
