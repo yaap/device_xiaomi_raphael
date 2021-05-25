@@ -1164,11 +1164,6 @@ vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so
 # WiFi Display (HDCP)
 vendor/bin/wfdhdcphalservice
 vendor/etc/init/android.hardware.drm@1.1-service.wfdhdcp.rc
-vendor/lib/libhdcp1prov.so
-vendor/lib/libhdcp2p2prov.so
-vendor/lib/libhdcpsrm.so
-vendor/lib/libmm-hdcpmgr.so
-vendor/lib/libwfdhdcpcp.so
 vendor/lib/libwfdhdcpservice_proprietary.so
 vendor/lib/libwfdmodulehdcpsession.so
 vendor/lib64/libhdcp1prov.so
