@@ -1,3 +1,5 @@
+# All unpinned blobs are extracted from raphael-user-11-RKQ1.200826.002-V12.5.1.0.RFKMIXM-release-keys
+
 # ADSPRPC
 vendor/bin/adsprpcd
 vendor/etc/init/vendor.qti.adsprpc-service.rc
@@ -473,9 +475,9 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libwvhidl.so
 
-# DRM(liboemcrypto)
-vendor/lib/liboemcrypto.so
-vendor/lib64/liboemcrypto.so
+# DRM(liboemcrypto) - from raphaelin-user-11-RKQ1.200826.002-V12.5.1.0.RFKINXM-release-keys
+vendor/lib/liboemcrypto.so|bd6c31e31016704fdf58ce10e8787bdf0e8d6398
+vendor/lib64/liboemcrypto.so|9aad24f21a73880ff304925f2859695664bd973c
 
 # Fingerprint - from raphael-user-11-RKQ1.200826.002-V12.5.1.0.RFKMIXM-release-keys
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service|4250f42e86ddf43b23a0feb1888a3e5c13b11be3
