@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 The LineageOS Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources>
+    <!-- Dirac settings -->
+    <string name="dirac_enable">Аудиоэффекты Dirac</string>
+    <string name="dirac_title">Дополнительная настройка звука</string> 
+    <string name="dirac_headset_title">Тип наушников</string>
+    <string name="dirac_hifi_enable_title">Использовать Hi-fi</string>
+    <string name="dirac_preset_title">Аудио пресеты</string>
+
+    <string name="dirac_hifi_title">Hi-Fi</string>
+    <string name="dirac_hifi_summary">Снижение искажений, шумов и повышение качества звуа</string>
+
+    <string name="dirac_headset_default">Стандартный пресет</string>
+    <string name="dirac_headset_earbuds">Mi Earbuds</string>
+    <string name="dirac_headset_in_ear_2013">Mi In-Ear (2013)</string>
+    <string name="dirac_headset_piston_1">Mi Piston 1</string>
+    <string name="dirac_headset_general">General Earbuds</string>
+    <string name="dirac_headset_general_inear">General In-Ear</string>
+    <string name="dirac_headset_piston_basic">Basic Edition</string>
+    <string name="dirac_headset_piston_2">Mi Piston 2</string>
+    <string name="dirac_headset_piston_standard">Mi Piston 3</string>
+    <string name="dirac_headset_headphone">Mi Headphone</string>
+    <string name="dirac_headset_piston_youth">Youth Edition</string>
+    <string name="dirac_headset_piston_color">Color Edition</string>
+    <string name="dirac_headset_in_ear">Mi In-Ear</string>
+    <string name="dirac_headset_capsule">Mi Capsule</string>
+    <string name="dirac_headset_in_ear_pro">Mi In-Ear Pro</string>
+    <string name="dirac_headset_comfort">Mi Comfort</string>
+    <string name="dirac_headset_reduction_noise">Mi Noise Cancelling (Type-C)</string>
+    <string name="dirac_headset_cancelling">Mi Noise Cancelling (3.5mm)</string>
+    <string name="dirac_headset_half_in_ear">Mi Half In-Ear</string>
+    <string name="dirac_headset_in_ear2">Mi In-Ear 2</string>
+    <string name="dirac_headset_earphone_basic">Mi Earphones Basic</string>
+    <string name="dirac_headset_earphone">Mi Earphones</string>
+
+    <string name="dirac_preset_default">Стандартный пресет</string>
+    <string name="dirac_preset_rock">Рок</string>
+    <string name="dirac_preset_jazz">Джаз</string>
+    <string name="dirac_preset_pop">Поп</string>
+    <string name="dirac_preset_classical">Классика</string>
+    <string name="dirac_preset_hiphop">Хип-хоп</string>
+    <string name="dirac_preset_blues">Блюз</string>
+    <string name="dirac_preset_electronic">Электроника</string>
+    <string name="dirac_preset_country">Кантри</string>
+    <string name="dirac_preset_dance">Танцевальная</string>
+    <string name="dirac_preset_metal">Метал</string>
+
+    <!-- Popup camera settings -->
+    <string name="popup_title">Фронтальная камера</string>
+    <string name="popup_led_title">LED</string>
+    <string name="popup_led_summary">Светится при активации и деактивации фронтальной камеры</string>
+    <string name="popup_sound_title">Аудиоэффекты</string>
+    <string name="popup_title_muqin">Ксилофон</string>
+    <string name="popup_title_yingyan">Кондор</string>
+    <string name="popup_title_mofa">Магия</string>
+    <string name="popup_title_jijia">Механика</string>
+    <string name="popup_title_chilun">Шестерни</string>
+    <string name="popup_title_cangmen">Шлюз</string>
+    <string name="popup_calibration_title">Калибровка</string>
+    <string name="popup_calibration_summary">Оптимизация работы механизма фронтальной камеры</string>
+    <string name="popup_calibration_warning_title">Калибровка механизма</string>
+    <string name="popup_calibration_warning_text">Используйте калибровку только если фронтальная камера работает неправильно, частое использование данной функции может привести к поломке!</string>
+
+    <!-- Popup camera strings -->
+    <string name="popup_camera_tip">Внимание</string>
+    <string name="popup_camera_takeback_failed_calibrate">Не удалось открыть фронтальную камеру, попробуйте откалибровать механизм в настройках</string>
+    <string name="popup_camera_popup_failed_calibrate">Не удалось закрыть фронтальную камеру, попробуйте откалибровать механизм в настройках</string>
+    <string name="popup_camera_calibrate_running">Фронтальная камера недоступна во время калибровки</string>
+    <string name="popup_camera_calibrate_now">Калибровка</string>
+    <string name="popup_camera_calibrate_failed">Калибровка прошла неудачно</string>
+    <string name="popup_camera_calibrate_success">Калибровка окончена, вы можете воспользоваться фронтальной камерой</string>
+
+    <!--Display settings fragment -->
+    <string name="display_settings_title">Кастомные настройки дисплея</string>
+    <string name="display_settings_summary">Максимальная яркость и устранение мерцания</string>
+
+    <!-- DC dimming settings -->
+    <string name="dc_dimming_enable_title">Устранение мерцания</string>
+    <string name="dc_dimming_enable_summary">Снижает нагрузку на глаза, но может вызвать цветовые искажения на низкой яркости</string>
+    <string name="dc_dimming_enable_summary_not_supported">Снижение мерцания не поддерживается вашим ядром</string>
+
+    <!-- HBM settings -->
+    <string name="hbm_mode_title">Максимальная яркость</string>
+    <string name="hbm_mode_summary">Максимально возможный уровень яркости вашего дисплея для использования на солнце</string>
+    <string name="hbm_enable_summary_not_supported">Максимальная яркость не поддерживается вашим ядром</string>
+
+    <!-- Popup camera dialog -->
+    <string name="popup_camera_dialog_message">Активировать фронтальную камеру?</string>
+    <string name="popup_camera_dialog_no">Нет</string>
+    <string name="popup_camera_dialog_raise">Да</string>
+    <string name="always_on_camera_dialog_title">Контроль активации фронтальной камеры</string>
+    <string name="always_on_camera_dialog_summary_on">Спрашивать каждый раз перед активацией фронтальрой камеры</string>
+    <string name="always_on_camera_dialog_summary_off">Спрашивать только при выключенном дисплее</string>
+
+</resources>
