@@ -22,9 +22,6 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Get Qcom components
 TARGET_EXCLUDE_QCOM_SEPOLICY := true
 TARGET_BOARD_PLATFORM := msmnile
-TARGET_COMMON_QTI_COMPONENTS := \
-    media \
-    av
 
 # AAPT
 PRODUCT_AAPT_CONFIG := normal
@@ -371,6 +368,20 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/media/media_profiles.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles.xml \
     $(LOCAL_PATH)/configs/media/media_profiles.xml:$(TARGET_COPY_OUT_ODM)/etc/media_profiles_V1_0.xml \
     $(LOCAL_PATH)/configs/media/media_profiles_vendor.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_vendor.xml
+
+    $(call inherit-product-if-exists, hardware/qcom-caf/sm8150/media/product.mk)
+
+# Properties
+PRODUCT_SYSTEM_EXT_PROPERTIES += \
+    media.settings.xml=/vendor/etc/media_profiles_vendor.xml \
+    media.stagefright.thumbnail.prefer_hw_codecs=true \
+    ro.media.recorder-max-base-layer-fps=60
+
+# Media Codecs
+PRODUCT_COPY_FILES += \
+    frameworks/av/media/libstagefright/data/media_codecs_google_c2_audio.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_audio.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_c2_telephony.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_telephony.xml \
+    frameworks/av/media/libstagefright/data/media_codecs_google_c2_video.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_codecs_google_c2_video.xml
 
 # Native Public Libraries
 PRODUCT_COPY_FILES += \

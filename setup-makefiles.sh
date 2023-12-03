@@ -29,8 +29,6 @@ source "${HELPER}"
 function vendor_imports() {
     cat <<EOF >>"$1"
 	"device/xiaomi/raphael",
-	"device/qcom/common/vendor/media-legacy",
-	"vendor/qcom/common/vendor/media-legacy",
         "hardware/google/interfaces",
         "hardware/google/pixel",
         "hardware/xiaomi",
