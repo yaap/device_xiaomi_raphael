@@ -89,7 +89,6 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "770000000",
         "725000000",
         "620000000"
       ],
