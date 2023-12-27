@@ -1,4 +1,12 @@
 <compatibility-matrix version="2.0" type="framework">
+    <hal format="aidl" optional="true">
+        <name>android.hardware.light</name>
+        <version>2</version>
+        <interface>
+            <name>ILights</name>
+            <instance>default</instance>
+</interface>
+    </hal>
 	<hal format="aidl" optional="true">
 		<name>android.hardware.audio.sounddose</name>
 		<interface>
