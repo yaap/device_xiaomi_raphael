@@ -7,6 +7,18 @@
    },
    {
       "remote":"github",
+      "repository":"SOVIET-ANDROID/platform_hardware_qcom_audio",
+      "target_path":"hardware/qcom-caf/sm8150/audio",
+      "branch":"14.0-8150"
+   },
+   {
+      "remote":"github",
+      "repository":"SOVIET-ANDROID/platform_hardware_qcom_media",
+      "target_path":"hardware/qcom-caf/sm8150/media",
+      "branch":"14.0-8150"
+   },
+   {
+      "remote":"github",
       "repository":"SOVIET-ANDROID/android_hardware_xiaomi",
       "target_path":"hardware/xiaomi",
       "branch":"14.0"

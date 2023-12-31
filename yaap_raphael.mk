@@ -12,22 +12,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 # Inherit from raphael device
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common YAAP stuff.
+$(call inherit-product, vendor/yaap/config/common_full_phone.mk)
 
-# Matrixx
-MATRIXX_BUILD_TYPE := Personal
-MATRIXX_MAINTAINER := NATO66613
-MATRIXX_CHIPSET := SM8150
-MATRIXX_BATTERY := 4000mAh
-MATRIXX_DISPLAY := 1080x2400
-WITH_GMS := true
-TARGET_HAS_UDFPS := true
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_ENABLE_BLUR := true
+# Gapps
+TARGET_BUILD_GAPPS := true
+
+# Boot animation
+scr_resolution := 1080
+TARGET_SCREEN_HEIGHT := 2400
+TARGET_SCREEN_WIDTH := 1080
+
+# Exclude QCOM powerhal manifest
+TARGET_PROVIDES_POWERHAL := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_raphael
+PRODUCT_NAME := yaap_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
