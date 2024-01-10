@@ -5,7 +5,7 @@
 //
 
 cc_library_shared {
-    name: "sensors.raphael_single_tap.so",
+    name: "sensors.raphael_single_tap",
     defaults: ["hidl_defaults"],
     srcs: [
         "single_tap_hal.cpp",
