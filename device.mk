@@ -117,6 +117,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-util \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service \
+    android.hardware.audio.sounddose-vendor-impl \
     android.hardware.bluetooth.audio@2.1-impl \
     android.hardware.soundtrigger@2.2-impl \
     audio.bluetooth.default \
@@ -321,6 +322,27 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Lights
 PRODUCT_PACKAGES += \
     android.hardware.light-service.xiaomi
+
+# Logging
+SPAMMY_LOG_TAGS := \
+    MiStcImpl \
+    SDM \
+    SDM-histogram \
+    SRE \
+    WifiHAL \
+    cnss-daemon \
+    libcitsensorservice@2.0-impl \
+    libsensor-displayalgo \
+    libsensor-parseRGB \
+    libsensor-ssccalapi \
+    sensors \
+    vendor.qti.hardware.display.composer-service \
+    vendor.xiaomi.sensor.citsensorservice@2.0-service
+
+ifneq ($(TARGET_BUILD_VARIANT),eng)
+PRODUCT_VENDOR_PROPERTIES += \
+    $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
+endif
 
 # Media
 PRODUCT_PACKAGES += \
