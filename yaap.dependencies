@@ -6,9 +6,9 @@
       "branch":"15.0"
    },
    {
-      "repository":"kernel_xiaomi_raphael",
-      "target_path":"kernel/xiaomi/raphael",
-      "branch":"15.0"
+      "repository":"device_xiaomi_raphael-kernel",
+      "target_path":"device/xiaomi/raphael-kernel",
+      "branch":"fifteen"
    },
    {
       "repository":"vendor_xiaomi_raphael",
