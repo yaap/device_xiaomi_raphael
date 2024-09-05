@@ -610,6 +610,7 @@ $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.
 
 # VNDK
 PRODUCT_PACKAGES += \
+    libcrypto-v33 \
     libutilscallstack.vendor:64 \
     libnetutils.vendor:64 \
     libsqlite.vendor:64 \
