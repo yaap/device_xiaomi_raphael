@@ -652,11 +652,8 @@
     <!-- Type of the tap sensor. Empty if tap is not supported. -->
     <string name="config_dozeTapSensorType" translatable="false">org.lineageos.sensor.single_tap</string>
 
-    <!-- Whether device supports increased touch sensitvity -->
+   <!-- Whether device supports increased touch sensitvity -->
     <bool name="config_supportGloveMode">true</bool>
-
-    <!-- Default component for QR code scanner -->
-    <string name="config_defaultQrCodeComponent">com.xiaomi.scanner/com.xiaomi.scanner.app.ScanActivity</string>
 
     <!-- Flag indicating whether the surfaceflinger has limited
          alpha compositing functionality in hardware.  If set, the window
