@@ -69,7 +69,7 @@ system_ext/lib/com.qualcomm.qti.ant@1.0.so
 system_ext/lib64/com.qualcomm.qti.ant@1.0.so
 
 # Alarm
--product/app/PowerOffAlarm/PowerOffAlarm.apk
+-product/app/PowerOffAlarm/PowerOffAlarm.apk;NODEXPO
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
 vendor/bin/power_off_alarm
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc
@@ -157,8 +157,8 @@ vendor/lib64/libcdsprpc.so|c03fcc9f80e9ec660d70ea55545308cb057faf16
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # CNE - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/CneApp/CneApp.apk;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
--vendor/app/IWlanService/IWlanService.apk|9ea57bfbf58799a564fcf498de9f5fe3506f7342
+-vendor/app/CneApp/CneApp.apk;NODEXPO;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
+-vendor/app/IWlanService/IWlanService.apk;NODEXPO|9ea57bfbf58799a564fcf498de9f5fe3506f7342
 vendor/bin/cnd|953858869b513828894800bf8556f3845d9665a2
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -472,7 +472,7 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|adae94cab65e
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|12d4edcd852196a531f688ed74d86ea10c4acb43
 
 # DPM (system)  - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk|ebf1f753ed24f8b6ba87c5f27c628889c38d0a85
+-system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk;NODEXPO|ebf1f753ed24f8b6ba87c5f27c628889c38d0a85
 framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
 system_ext/bin/dpmd|5a42bc4e5c841573579e0718d6e80e688767eeed
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -712,8 +712,8 @@ vendor/firmware/a650_sqe.fw
 vendor/firmware/a650_zap.elf
 
 # HotwordEnrollment - from MIUI 12.5.2
--product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk|62e301d2f386771facd9a9aa546c0fcc241116da
--product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk|8639661f6fad570723bc6f2759da76604bd804fa
+-product/priv-app/HotwordEnrollmentOKGoogleHEXAGON/HotwordEnrollmentOKGoogleHEXAGON.apk;NODEXPO|62e301d2f386771facd9a9aa546c0fcc241116da
+-product/priv-app/HotwordEnrollmentXGoogleHEXAGON/HotwordEnrollmentXGoogleHEXAGON.apk;NODEXPO|8639661f6fad570723bc6f2759da76604bd804fa
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml|563a58554d9c0dd0608552b644fbf74519a447bb
 system_ext/framework/com.android.hotwordenrollment.common.util.jar|bef92589e75a6da6043f85f4b9b0e85866429624
 
@@ -926,7 +926,7 @@ vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|4e08dcd830d319c1a56d108c037b1f76eb5060d4
 
 # Radio (IMS) (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
--system_ext/priv-app/ims/ims.apk|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
+-system_ext/priv-app/ims/ims.apk;NODEXPO|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
 system_ext/lib64/lib-imsvideocodec.so|ba0a0696b468ee2458c196b3d252656d20eb197f
 system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
@@ -988,8 +988,8 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|4fc84ea2ec56396fa1d6da
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
 # Radio (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
+-system_ext/app/QtiTelephonyService/QtiTelephonyService.apk;NODEXPO|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
+-system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk;NODEXPO|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
@@ -1171,7 +1171,7 @@ vendor/lib64/libscveObjectTracker.so|0cf7d3128ae0019d882da5c9d8d9186d549177d1
 vendor/lib64/libscveObjectTracker_stub.so|6f45aa215de07dfeacf811c06af750206bb1cf58
 
 # Soter
--app/SoterService/SoterService.apk
+-app/SoterService/SoterService.apk;NODEXPO
 vendor/bin/hw/vendor.qti.hardware.soter@1.0-service
 vendor/etc/init/vendor.qti.hardware.soter@1.0-service.rc
 vendor/lib64/hw/vendor.qti.hardware.soter@1.0-impl.so
@@ -1188,7 +1188,7 @@ vendor/bin/thermal-engine|01cb7dc998c39016b54089c18921ad7d65b3c675
 -vendor/lib64/libthermalclient.so
 
 # Time - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
+-vendor/app/TimeService/TimeService.apk;NODEXPO|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
