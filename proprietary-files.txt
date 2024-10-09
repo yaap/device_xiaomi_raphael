@@ -645,7 +645,7 @@ vendor/lib64/egl/libEGL_adreno.so;SYMLINK=vendor/lib64/libEGL_adreno.so|860ed235
 vendor/lib64/egl/libGLESv1_CM_adreno.so|4538678560a8aa062b00f6690e4b268896c1b59d
 vendor/lib64/egl/libGLESv2_adreno.so;SYMLINK=vendor/lib64/libGLESv2_adreno.so|fbc82874ae90a9163257990048cbb077e6828f57
 vendor/lib64/egl/libVkLayer_ADRENO_qprofiler.so;SYMLINK=vendor/lib64/libVkLayer_ADRENO_qprofiler.so|2fa3a828512eadd1afbb132099547d496ba65be2
-vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib/libq3dtools_adreno.so|421f7776fda70f2ba8212790e9ac69a3f7288f77
+vendor/lib64/egl/libq3dtools_adreno.so;SYMLINK=vendor/lib64/libq3dtools_adreno.so|421f7776fda70f2ba8212790e9ac69a3f7288f77
 vendor/lib64/egl/libq3dtools_esx.so|22cc73afe2f8167a0f9953a33ff2eaa465dcfb34
 vendor/lib64/hw/vulkan.adreno.so|f6db97058a3b806367b37b71b9961c00dbbb4f0c
 vendor/lib64/libC2D2.so|fafaeb8e08cc62dbad97d1c73af524ae47806c7c
