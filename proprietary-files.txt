@@ -158,8 +158,8 @@ vendor/lib64/libcdsprpc.so|c03fcc9f80e9ec660d70ea55545308cb057faf16
 vendor/lib64/libsysmon_cdsp_skel.so|8a951e039071107317e0e7541ff4df7ad35d87ad
 
 # CNE - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/CneApp/CneApp.apk;NODEXPO;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
--vendor/app/IWlanService/IWlanService.apk;NODEXPO|9ea57bfbf58799a564fcf498de9f5fe3506f7342
+vendor/app/CneApp/CneApp.apk;NODEXPO;REQUIRED=CneApp.libvndfwk_detect_jni.qti_symlink|345dc6c677e9bd7a7d36033b8955e90d2a1594d5
+vendor/app/IWlanService/IWlanService.apk;NODEXPO|9ea57bfbf58799a564fcf498de9f5fe3506f7342
 vendor/bin/cnd|953858869b513828894800bf8556f3845d9665a2
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
 vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml|1fb42c672a12b6660bdce3ea94e0c43719dd9de8
@@ -459,7 +459,7 @@ vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|adae94cab65e
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|12d4edcd852196a531f688ed74d86ea10c4acb43
 
 # DPM (system)  - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk;NODEXPO|ebf1f753ed24f8b6ba87c5f27c628889c38d0a85
+system_ext/priv-app/dpmserviceapp/dpmserviceapp.apk;NODEXPO|ebf1f753ed24f8b6ba87c5f27c628889c38d0a85
 framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
 system_ext/bin/dpmd|5a42bc4e5c841573579e0718d6e80e688767eeed
 system_ext/etc/dpm/dpm.conf|95e27da8c989e96c6faea6f0697bce11955b62a5
@@ -488,7 +488,7 @@ vendor/lib/liboemcrypto.so
 vendor/lib64/liboemcrypto.so
 
 # DRM
--vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
+vendor/etc/vintf/manifest/manifest_android.hardware.drm@1.3-service.widevine.xml
 vendor/bin/hw/android.hardware.drm@1.3-service.widevine
 vendor/bin/hw/vendor.qti.hardware.qseecom@1.0-service
 vendor/bin/qseecomd
@@ -533,7 +533,7 @@ vendor/lib64/libdisp-aba.so|44993853ff9d4340e856e6f53d802f10372442d3
 vendor/lib64/libdisplayqos.so|5548732c916e629f18f45ce257ce843b679a136a
 
 # FM (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
--system_ext/lib64/vendor.qti.hardware.fm@1.0.so|b9dc0797da5790a7d5f1c9a7a2fd9c4a7b87d304
+system_ext/lib64/vendor.qti.hardware.fm@1.0.so|b9dc0797da5790a7d5f1c9a7a2fd9c4a7b87d304
 system_ext/lib64/fm_helium.so|f5c9cc8de62340ab8b38cca2555eeac9ab18d84b
 system_ext/lib64/libfm-hci.so|6fd608b27c9caf5a055c7c29ae386f596f399bc1
 
@@ -542,7 +542,7 @@ vendor/lib64/hw/fingerprint.goodix_fod.so:vendor/lib64/hw/fingerprint.goodix_fod
 vendor/lib64/libgf_hal.so
 
 # GNSS
--vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
+vendor/etc/vintf/manifest/android.hardware.gnss@2.1-service-qti.xml
 vendor/bin/hw/android.hardware.gnss@2.1-service-qti
 vendor/etc/init/android.hardware.gnss@2.1-service-qti.rc
 vendor/lib/hw/android.hardware.gnss@2.1-impl-qti.so
@@ -561,7 +561,7 @@ vendor/lib64/libloc_core.so
 vendor/lib64/liblocation_api.so
 
 # GPS - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
+vendor/etc/vintf/manifest/vendor.qti.gnss@4.0-service.xml|6514b13f55abc0acc28e004c35ff93fb972d61a9
 vendor/bin/garden_app|4d5d58b8d8ecbb82db31b6e7f26f9fb749f9393b
 vendor/bin/loc_launcher|515038f060e83db862cca5cc8b79a3eb07d689f4
 vendor/bin/lowi-server;DISABLE_CHECKELF|6ec426344a6d6e9896d0f5daba63c9d7d9145528
@@ -814,7 +814,7 @@ vendor/lib64/vendor.qti.hardware.vpp@1.3.so|85a4e2ca843525db5c76486dbee4c5c7a672
 
 
 # Mlipay
--vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
+vendor/etc/vintf/manifest/manifest_vendor.xiaomi.hardware.mlipay.xml
 vendor/bin/mlipayd@1.1
 vendor/etc/init/vendor.xiaomi.hardware.mlipay@1.1-service.rc
 vendor/lib64/libmlipay.so
@@ -824,8 +824,8 @@ vendor/lib64/libmlipay@1.1.so
 vendor/lib/libsn100u_fw.so
 
 # Neural Networks - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
--vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti-hta.xml|57e182a296097870a4c4ed1579c67da20c2b69de
+vendor/etc/vintf/manifest/android.hardware.neuralnetworks@1.3-service-qti.xml|ac07e83ba7c2a87a2f216f04ec84df4539ea8507
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti|d8f5981b1bedaa9cbef1b9fc93a400dc98e89cfa
 vendor/lib64/libhexagon_nn_stub.so|6fdaffc1c9372c0e70bcd82f5d806162ca31c176
 vendor/lib64/libhta_hexagon_runtime.so|e8f735a8d9396052fe217eafe506e28b492f024c
@@ -911,7 +911,7 @@ vendor/lib64/libQTEEConnector_vendor.so|30e5fd8d4fff50083f44f6d0bd09f4bd287a8366
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|4e08dcd830d319c1a56d108c037b1f76eb5060d4
 
 # Radio (IMS) (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
--system_ext/priv-app/ims/ims.apk;NODEXPO|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
+system_ext/priv-app/ims/ims.apk;NODEXPO|ed68ecd630ddbd49e88bd0b2e3b50ee35c334ef0
 system_ext/lib64/lib-imsvideocodec.so;DISABLE_CHECKELF|ba0a0696b468ee2458c196b3d252656d20eb197f
 system_ext/lib64/lib-imsvt.so|f795cc87119b49587dbb1f3e4349fcf67b0610ed
 system_ext/lib64/lib-imsvtextutils.so|50a092eb7b490f4307bddb3d5a4c595b458bc503
@@ -973,8 +973,8 @@ vendor/lib64/vendor.qti.imsrtpservice@3.0-service-Impl.so|4fc84ea2ec56396fa1d6da
 vendor/lib64/vendor.qti.imsrtpservice@3.0.so;MODULE_SUFFIX=_vendor|460e589128fce0b0e83bb3c75aa32f7e1a9494fd
 
 # Radio (system) - from LA.QSSI.12.0.r1-05800.02-qssi.0
--system_ext/app/QtiTelephonyService/QtiTelephonyService.apk;NODEXPO|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
--system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk;NODEXPO|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
+system_ext/app/QtiTelephonyService/QtiTelephonyService.apk;NODEXPO|a32f88ddcc8f9cba18aa5697ee5bd52201e89b13
+system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk;NODEXPO|60af440aae61fcd6939af56a0b94d9b9ef5ebd55
 product/etc/permissions/telephony_product_privapp-permissions-qti.xml|42f4553b61731e56d253766554d4479519cea3ff
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 system_ext/etc/permissions/telephonyservice.xml|b7831598d3c19c6ce4ef431d1cc44d94c3c35a8d
@@ -1141,8 +1141,8 @@ vendor/lib64/sensors.mius.proximity.so
 vendor/lib64/sensors.ssc.so
 
 # Snapdragon Computer Vision Engine - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/lib/libfastcvopt.so|7cf6fc27e6536f32be9409532aa7e19e96ec7083
--vendor/lib64/libfastcvopt.so|de99aded67cd9834bc0c5aaf405d7d2a115a2883
+vendor/lib/libfastcvopt.so|7cf6fc27e6536f32be9409532aa7e19e96ec7083
+vendor/lib64/libfastcvopt.so|de99aded67cd9834bc0c5aaf405d7d2a115a2883
 vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
 vendor/lib/libscveCommon.so|4be56b846f71f4ba8032471abf9f02dc5b01810c
 vendor/lib/libscveCommon_stub.so|89e1a3d3302b6809ae4ca1d80f6c2e0cd3c3b752
@@ -1172,11 +1172,11 @@ vendor/bin/ssr_setup
 vendor/bin/thermal-engine|01cb7dc998c39016b54089c18921ad7d65b3c675
 
 # ThermalClient
--vendor/lib/libthermalclient.so
--vendor/lib64/libthermalclient.so
+vendor/lib/libthermalclient.so
+vendor/lib64/libthermalclient.so
 
 # Time - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
--vendor/app/TimeService/TimeService.apk;NODEXPO|92317b3b72586489456d37057b4c3c8e55863923
+vendor/app/TimeService/TimeService.apk;NODEXPO|92317b3b72586489456d37057b4c3c8e55863923
 vendor/bin/time_daemon|48401d7f85c87aa3e12ce7b4a969a50cbf59c293
 vendor/etc/init/init.time_daemon.rc|b253ca2a498757e14e1d7a051bf504ae09218f51
 vendor/lib64/libtime_genoff.so|8bb116ad297a5e4a94da2f10509509cb6e863a5f
