@@ -731,5 +731,14 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     task_profiles ServiceCapacityLow
     socket pps stream 0660 system system
 
+service vendor.sensors-hal-1-0 /vendor/bin/hw/android.hardware.sensors@1.0-service
+    interface android.hardware.sensors@1.0::ISensors default
+    class hal
+    user system
+    group system wakelock uhid context_hub input
+    task_profiles ServiceCapacityLow
+    capabilities BLOCK_SUSPEND
+    rlimit rtprio 10 10
+
 on boot && property:persist.sys.usb.config=*
     setprop sys.usb.config ${persist.sys.usb.config}
