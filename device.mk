@@ -116,10 +116,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     suspend.short_suspend_backoff_enabled=true \
     suspend.max_sleep_time_millis=40000
 
-# ANT+
-PRODUCT_PACKAGES += \
-    AntHalService-Soong
-
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
