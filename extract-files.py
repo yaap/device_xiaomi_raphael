@@ -68,6 +68,10 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .add_needed('libcrypto_shim.so'),
     (
+        'vendor/etc/init/vendor.qti.media.c2@1.0-service.rc'
+    ): blob_fixup()
+        .regex_replace(r'writepid.*', 'task_profiles ProcessCapacityHigh HighPerformance'),
+    (
         'vendor/lib/libaudioroute_ext.so',
     ): blob_fixup()
         .replace_needed('libaudioroute.so', 'libaudioroute-v34.so'),
