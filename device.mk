@@ -388,6 +388,9 @@ PRODUCT_VENDOR_PROPERTIES += \
     $(foreach tag,$(SPAMMY_LOG_TAGS),log.tag.$(tag)=E)
 endif
 
+# Lindroid
+TARGET_BUILD_LINDROID := true
+
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
