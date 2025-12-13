@@ -656,9 +656,6 @@ PRODUCT_PACKAGES += \
     libnl \
     libpng.vendor
 
-PRODUCT_BOOT_JARS += \
-    WfdCommon
-
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
     debug.sf.enable_hwc_vds=0 \
     persist.debug.wfd.enable=1 \
