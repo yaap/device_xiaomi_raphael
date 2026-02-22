@@ -1,5 +1,8 @@
 # eBPF
 ro.bpf.kver_override=5.4.299
 
+# FS-verity
+ro.apk_verity.mode=2
+
 # Model properties
 import /system/product.${ro.boot.hwc}.prop
