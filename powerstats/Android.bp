@@ -19,7 +19,6 @@ cc_binary {
     init_rc: ["android.hardware.power.stats@1.0-service.raphael.rc"],
     srcs: [
         "service.cpp",
-        "RailDataProvider.cpp",
         "GpuStateResidencyDataProvider.cpp",
     ],
     cflags: [
@@ -32,13 +31,10 @@ cc_binary {
     shared_libs: [
         "libbase",
         "libcutils",
-        "libfmq",
         "libhidlbase",
         "liblog",
         "libutils",
         "android.hardware.power.stats@1.0",
-        "pixelpowerstats_provider_aidl_interface-cpp",
-        "libbinder",
     ],
     vendor: true,
 }
