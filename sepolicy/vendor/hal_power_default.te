@@ -31,6 +31,23 @@ allow hal_power_default {
   vendor_sysfs_devfreq
 }:dir search;
 
+
+# Allow PowerHAL to adjust scheduler attributes for apps
+allow hal_power_default { 
+    platform_app 
+    priv_app 
+    untrusted_app 
+    system_app 
+}:process setsched;
+
+allow hal_power_default self:capability sys_nice;
+
+typeattribute hal_power_default mlstrustedsubject; # Allows HAL to talk to apps with categories (c512, etc)
+allow hal_power_default { platform_app priv_app untrusted_app system_app }:process { getsched setsched };
+
+allow hal_power_default cgroup:dir r_dir_perms;
+allow hal_power_default cgroup:file rw_file_perms;
+
 # Set scheduling info for apps (for adpf)
 allow hal_power_default appdomain:process { getsched setsched };
 allow hal_power_default self:capability sys_nice;
@@ -48,8 +65,6 @@ allow hal_power_default cgroup:file r_file_perms;
 
 # Allow reading proc files for CPU statistics.
 allow hal_power_default proc_stat:file r_file_perms;
-allow hal_power_default proc_vendor_sched:dir r_dir_perms;
-allow hal_power_default proc_vendor_sched:file r_file_perms;
 
 # Allow read/write thermal sysfs and property
 allow hal_power_default sysfs_thermal:dir r_dir_perms;

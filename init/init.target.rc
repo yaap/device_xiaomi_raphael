@@ -71,7 +71,7 @@ on init
     write /dev/cpuctl/top-app/cpu.uclamp.min 15
     write /dev/cpuctl/foreground/cpu.uclamp.min 15
     write /dev/cpuctl/system/cpu.uclamp.min 15
-    write /dev/cpuctl/nnapi-hal/cpu.uclamp_min 50
+    write /dev/cpuctl/nnapi-hal/cpu.uclamp.min 50
 
     # RT uclamp setting
     setprop kernel.sched_util_clamp_min_rt_default 0
