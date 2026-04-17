@@ -491,7 +491,8 @@ PRODUCT_PACKAGES += \
 
 # Enable Hint maneger for SurfaceFlinger and HWUI
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
-    debug.hwui.use_hint_manager=true
+    debug.hwui.use_hint_manager=true \
+    debug.sf.enable_adpf_cpu_hint=true
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/etc/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
