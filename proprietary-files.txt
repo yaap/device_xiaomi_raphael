@@ -23,7 +23,7 @@ vendor/etc/acdbdata/adsp_avs_config.acdb
 # ADSP - from nabu OS1.0.18.0.TKXINXM
 vendor/bin/adsprpcd|c1b9fe936ffbcd5a875baa785f4b9629366083ec
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|8119845f8e6a24e53bdf286e19f34e9906d64e78
+vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|35a8f46fa3b4a27f0e4792cfc9975a4511413b35
 vendor/lib/libadsp_default_listener.so|92ca2faf693eb488394440b94b6deb73fe9504e2
 vendor/lib/libadsprpc.so|437f6ab24e5a08de250529bf0adf5ecaed88817d
 vendor/lib/libmdsprpc.so|f9cabbd95f91e9fa90e21c48349adbdd825a05ff
@@ -1177,10 +1177,16 @@ vendor/lib64/vendor.qti.hardware.soter@1.0.so
 # Subsystem
 vendor/bin/ssr_setup
 
-# Thermal
-vendor/bin/mi_thermald
-vendor/bin/thermal_factory
-vendor/etc/init/init.mi_thermald.rc
+# Thermal - from nabu OS1.0.18.0.TKXINXM 
+vendor/bin/mi_thermald|40a5d3315d91cbaeb090dc06c8f63d7d369b85b1
+vendor/etc/init/init.mi_thermald.rc|6505d89e19957888612d89f6769585a7d26af080
+
+# Thermal engine - from nabu OS1.0.18.0.TKXINXM
+vendor/bin/thermal-engine|e74184e124c41e51535fad6a6ad9cc089695211b
+vendor/lib/libthermalclient.so|31533667b7f8137670189a14c68ccb51c7ca6dab
+vendor/lib64/libthermalclient.so|41274c82e1a472d12b2ebcb4156f7f77b109efa8
+
+# Thermal configs
 vendor/etc/thermal-arvr.conf
 vendor/etc/thermal-camera.conf
 vendor/etc/thermal-chg-only.conf
@@ -1193,13 +1199,6 @@ vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermal-youtobe.conf
 vendor/etc/thermald-devices.conf
-
-# Thermal - from LA.UM.9.1.r1-11500.02-SMxxx0.QSSI12.0
-vendor/bin/thermal-engine|dabe58b48effdf5ac401d6c467af3f7c29c3418e
-vendor/etc/init/init_thermal-engine.rc|a0310f09da9f09c67e110607b73aec9f9f981c4c
-vendor/etc/thermal-engine.conf|c6c9312b7c7b52926cf7d0fc9bff933d90967100
-vendor/lib/libthermalclient.so|647d57a7fd71fb3494d47f0d30ace36d45ba54eb
-vendor/lib64/libthermalclient.so|2fe5d8e4d3413795626a4c4fb6f0e4b6bf775ebe
 
 # Time - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/app/TimeService/TimeService.apk|92317b3b72586489456d37057b4c3c8e55863923
