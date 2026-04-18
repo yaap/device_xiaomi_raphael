@@ -716,17 +716,17 @@ vendor/firmware/ipa_uc.mdt
 # IRQ balance - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/msm_irqbalance|b075c2f4092c175950a2c26d19bf2013e2efd6d5
 
-# Keystore
-vendor/bin/hw/android.hardware.keymaster@4.0-service-qti
-vendor/etc/init/android.hardware.keymaster@4.0-service-qti.rc
-vendor/lib/libkeymasterdeviceutils.so
-vendor/lib/libkeymasterprovision.so
-vendor/lib/libkeymasterutils.so
-vendor/lib/libqtikeymaster4.so
-vendor/lib64/libkeymasterdeviceutils.so
-vendor/lib64/libkeymasterprovision.so
-vendor/lib64/libkeymasterutils.so
-vendor/lib64/libqtikeymaster4.so
+# Keymaster - from nabu OS1.0.18.0.TKXINXM
+vendor/bin/hw/android.hardware.keymaster@4.1-service-qti|dd28418cf9fb70a8df08c6f0040a033fb76c1b2b
+vendor/etc/init/android.hardware.keymaster@4.1-service-qti.rc|26710162b144c80a84a04e5211bdcaaf3bd1c2b9
+vendor/lib/libkeymasterdeviceutils.so|afb8919bb508b6b245f4b8e17e953af269526548
+vendor/lib/libkeymasterprovision.so|4c740ca80b066a716712a936b5843c2d219475a4
+vendor/lib/libkeymasterutils.so|b858213f907f494e0f95d815d645116508340971
+vendor/lib/libqtikeymaster4.so|362b7cfe77d84c52153f7814ffdc2bac036bdc9e
+vendor/lib64/libkeymasterdeviceutils.so|f95b8401343efd8af098b45f25afb97dfb60de19
+vendor/lib64/libkeymasterprovision.so|2004bab12a51dcaeef2e838492b5d1fa6532b898
+vendor/lib64/libkeymasterutils.so|b9c888d579c9cf7a1c8f463be4048eb9d935daf8
+vendor/lib64/libqtikeymaster4.so|6b84db846c36c07d416259d1f01830895ff4b57c
 
 # Listen (sound_trigger)
 vendor/lib/hw/sound_trigger.primary.msmnile.so
@@ -814,12 +814,12 @@ vendor/lib64/unnhal-acc-common.so|e37d2113f99506f1de85902a0fdee0b443342942
 vendor/lib64/unnhal-acc-hta.so|7e11ddb04581f172e69b3778e0b803ef5ec39382
 vendor/lib64/unnhal-acc-hvx.so|d5123c50b9523190c71d90acc2635ff21595bd1a
 
-# Peripheral manager - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
-vendor/bin/pm-proxy|c36785c811db9af0d6d938cdbc6b90dedaaf706e
-vendor/bin/pm-service|c3d1b2f6e7f731b1328afbcf8e344405744528e3
-vendor/lib/libspcom.so|3e1b92390ebcb02d35fcda89f80d1cfef3a03a71
-vendor/lib64/libperipheral_client.so|9bfd41e276e16b8f7c6808f3d87531fc5be4cdd5
-vendor/lib64/libspcom.so|7cc4390e7caf520586c22cdb7219842fa5d6ed2c
+# Peripheral manager - from nabu OS1.0.18.0.TKXINXM
+vendor/bin/pm-proxy|67d8975fe45a3a631178dbbbf74c7fdd9f0e4710
+vendor/bin/pm-service|a1f55c9cbff46641c5bd88a4b73b13638a90c3ed
+vendor/lib/libspcom.so|3d9495c44848e6e2b2fbc2f794c24e5be37427fc
+vendor/lib64/libperipheral_client.so|6c7629912519840a72b6595d5add2ec6b0e6b8d9
+vendor/lib64/libspcom.so|eef7a179687dfbc4a2d317f4e5c45a3ae64cbd10
 
 # QCC - from LA.UM.9.1.r1-13700-SMxxx0.QSSI13.0
 vendor/bin/hw/vendor.qti.hardware.qccvndhal@1.0-service|b60b09fa92e8b400129c021c6b51c0c63dbf1edd
