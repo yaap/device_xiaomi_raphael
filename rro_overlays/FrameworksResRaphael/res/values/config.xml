@@ -244,6 +244,9 @@
          in hardware. -->
     <bool name="config_setColorTransformAccelerated">true</bool>
 
+    <!-- Disable display white balance (True Tone) as the device lacks an RGB color sensor -->
+    <bool name="config_displayWhiteBalanceAvailable">false</bool>
+
     <!-- Minimum color temperature, in Kelvin, supported by Night display. -->
     <integer name="config_nightDisplayColorTemperatureMin">1600</integer>
 
