@@ -74,7 +74,6 @@ on init
     write /dev/cpuctl/nnapi-hal/cpu.uclamp.min 50
 
     # RT uclamp setting
-    setprop kernel.sched_util_clamp_min_rt_default 0
     write /proc/sys/kernel/sched_util_clamp_min_rt_default 0
 
     # Migrate cpuctl tasks once to cpuctl system
