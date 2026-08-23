@@ -8,7 +8,7 @@ soong_namespace {
     imports: [
         "bootable/deprecated-ota",
         "hardware/google/interfaces",
-        "hardware/google/pixel",
+        "hardware/google/pixel/power-libperfmgr",
         "hardware/xiaomi",
     ],
 }
