@@ -59,9 +59,6 @@
 # Widevine
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.4-service.clearkey                                     u:object_r:vendor_hal_drm_widevine_exec:s0
 
-# Zram
-/data/per_boot(/.*)?                                            u:object_r:per_boot_file:s0
-
 # Block devices
 /dev/block/platform/soc/1d84000\.ufshc/by-name/vendor               u:object_r:system_block_device:s0
 /dev/block/platform/soc/1d84000\.ufshc/by-name/system               u:object_r:system_block_device:s0
